@@ -1,0 +1,41 @@
+.banner {
+    width: 100%;
+    height: 350px;
+    padding-top: 80px;
+    background-color: var(--gray-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-info {
+    text-align: center;
+}
+
+.banner-info h2 {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.banner-info p {
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--strongpink-color);
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .banner-info h2 {
+        font-size: 30px;
+    }
+
+    .banner-info p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+.opiniones .cards-container .pink-line {
+    width: 585px;
+    height: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: var(--strongpink-color);
+}
+
+.opiniones .cards-container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.opiniones .cards-container .cards-container-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.opiniones .reseña-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.reseña-container .reseña {
+    padding: 15px 80px;
+    background-color: var(--strongpink-color);
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.reseña-container .reseña:hover {
+    background-color: var(--smothpink-color);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+    .opiniones .cards-container {
+        width: 90%;
+    }
+
+    .opiniones .cards-container .cards-container-inner {
+        justify-content: center;
+    }
+
+    .opiniones .cards-container .pink-line {
+        width: 100%;
+    }
+}
