@@ -75,12 +75,17 @@
 
     .opiniones .card-opiniones .card-opiniones-img {
         width: 100px;
+        margin-bottom: 30px;
     }
 
-    .opiniones .card-opiniones .card-opiniones-img {
-        margin-bottom: 35px;
+    .card-opiniones-img img {
+        margin-top: 20px;
+
     }
 
+    .card-opiniones-img p {
+        top: 80px;
+    }
 
     .opiniones .card-opiniones .card-opiniones-info {
         width: calc(100% - 100px);
