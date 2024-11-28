@@ -214,3 +214,14 @@ form .container-3 {
     }
     
 }
+
+@media screen and (max-width: 550px) {
+
+    .container-3 button {
+        width: 295px;
+    }
+    
+    .contact-container .whatsapp button {
+        width: 295px;
+    }
+}

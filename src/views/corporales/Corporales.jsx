@@ -4,8 +4,17 @@ import { Navbar } from '../../components/navbar/Navbar'
 import { Banner } from '../../components/banner/Banner'
 import { Footer } from '../../components/footer/Footer'
 import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 export const Corporales = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/Corporales') {
+      window.scrollTo({left: 0 , top: 0 , behavior: "instant"}); // Desplaza la página al inicio
+    }
+  }, [location.pathname]);
 
   useEffect(() => {
     const accordionButton = document.querySelectorAll(".accordion-button");

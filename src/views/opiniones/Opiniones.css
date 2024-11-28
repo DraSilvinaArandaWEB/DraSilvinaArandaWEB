@@ -31,7 +31,7 @@
 }
 
 .reseña-container .reseña {
-    padding: 15px 80px;
+    padding: 15px 60px;
     background-color: var(--strongpink-color);
     font-family: var(--font-montserrat);
     font-weight: 600;

@@ -4,9 +4,17 @@ import  { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import { useEffect } from 'react'
-import img1 from '../../assets/Mela1.webp'
+import { useLocation } from 'react-router-dom'
 
 export const Faciales = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/Faciales') {
+      window.scrollTo({left: 0 , top: 0 , behavior: "instant"}); // Desplaza la página al inicio
+    }
+  }, [location.pathname]);
 
   useEffect(() => {
     const accordionButton = document.querySelectorAll(".accordion-button");
