@@ -578,6 +578,18 @@ html , body {
   .about .about-container .about-cards-container .about-card {
     width: 100%;
     height: 340px;
+    position: relative;
+  }
+
+  .about .about-container .about-cards-container .about-card .img {
+    width: auto;
+    position: absolute;
+    left: 0;
+  }
+
+  .about .about-container .about-cards-container .about-card .img img {
+    width: 40px;
+    margin: 0;
   }
 
   .title-icon h2 {
