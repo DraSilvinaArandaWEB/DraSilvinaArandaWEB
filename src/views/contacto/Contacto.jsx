@@ -27,40 +27,40 @@ export const Contacto = () => {
   //   }
   // }
 
-  const submit = async (e) => {
-    e.preventDefault(); // Prevenir el comportamiento predeterminado
+  // const submit = async (e) => {
+  //   e.preventDefault(); // Prevenir el comportamiento predeterminado
 
-    if (captcha.current.getValue()) {
-      console.log('CAPTCHA resuelto. Enviando formulario...');
-      setButtonText('ENVIANDO...'); // Cambiar el texto del botón
+  //   if (captcha.current.getValue()) {
+  //     console.log('CAPTCHA resuelto. Enviando formulario...');
+  //     setButtonText('ENVIANDO...'); // Cambiar el texto del botón
 
-      // Crear un objeto con los datos del formulario
-      const formData = new FormData(e.target);
+  //     // Crear un objeto con los datos del formulario
+  //     const formData = new FormData(e.target);
 
-      try {
-        const response = await fetch('https://formsubmit.co/frx.ros@gmail.com', {
-          method: 'POST',
-          body: formData,
-        });
+  //     try {
+  //       const response = await fetch('https://formsubmit.co/frx.ros@gmail.com', {
+  //         method: 'POST',
+  //         body: formData,
+  //       });
 
-        if (response.ok) {
-          alert('Formulario enviado exitosamente');
-          e.target.reset(); // Limpiar el formulario
-          captcha.current.reset(); // Reiniciar CAPTCHA
-        } else {
-          alert('Hubo un problema al enviar el formulario. Inténtalo nuevamente.');
-        }
-      } catch (error) {
-        console.error('Error al enviar el formulario:', error);
-        alert('Ocurrió un error. Por favor, inténtalo más tarde.');
-      } finally {
-        setButtonText('ENVIAR'); // Restablecer el texto del botón
-      }
-    } else {
-      console.log('CAPTCHA no resuelto. No se enviará el formulario.');
-      alert('Por favor, resuelve el CAPTCHA antes de enviar el formulario.');
-    }
-  };
+  //       if (response.ok) {
+  //         alert('Formulario enviado exitosamente');
+  //         e.target.reset(); // Limpiar el formulario
+  //         captcha.current.reset(); // Reiniciar CAPTCHA
+  //       } else {
+  //         alert('Hubo un problema al enviar el formulario. Inténtalo nuevamente.');
+  //       }
+  //     } catch (error) {
+  //       console.error('Error al enviar el formulario:', error);
+  //       alert('Ocurrió un error. Por favor, inténtalo más tarde.');
+  //     } finally {
+  //       setButtonText('ENVIAR'); // Restablecer el texto del botón
+  //     }
+  //   } else {
+  //     console.log('CAPTCHA no resuelto. No se enviará el formulario.');
+  //     alert('Por favor, resuelve el CAPTCHA antes de enviar el formulario.');
+  //   }
+  // };
 
   return (
     <div>
