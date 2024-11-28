@@ -32,7 +32,7 @@
 
 .card-opiniones-img img {
     width: 60px;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .card-opiniones-img p {
@@ -40,7 +40,7 @@
     font-weight: 500;
     font-size: 14px;
     position: absolute;
-    top: 80px;
+    top: 105px;
 }
 
 .opiniones .card-opiniones .card-opiniones-info {
