@@ -77,6 +77,11 @@
         width: 100px;
     }
 
+    .opiniones .card-opiniones .card-opiniones-img {
+        margin-bottom: 35px;
+    }
+
+
     .opiniones .card-opiniones .card-opiniones-info {
         width: calc(100% - 100px);
     }
