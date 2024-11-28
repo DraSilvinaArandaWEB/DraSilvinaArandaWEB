@@ -12,11 +12,16 @@ import {
   Link,
 } from "react-router-dom";
 import App from './App.jsx'
+import { AntesYdespues } from './views/antesYdespues/AntesYdespues.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>
+  },
+  {
+    path: "/Antes&Despues",
+    element: <AntesYdespues></AntesYdespues>
   },
   {
     path: "/Mela",

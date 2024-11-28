@@ -16,6 +16,7 @@ export const Footer = () => {
                   <h3>MENU</h3>
                     <ul>
                         <li><Link to={"/"}>INICIO</Link></li>
+                        <li><Link to={"/Antes&Despues"}>ANTES & DESPUES</Link></li>
                         <li><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
                         <li><Link to={"/Testimonios"}>TESTIMONIOS</Link></li>
                         <li><Link to={"/Contacto"}>CONTACTO</Link></li>
@@ -40,12 +41,9 @@ export const Footer = () => {
                     <li>silvinaaranda@gmail.com</li>
                     <li>+54 9 11 37696614</li>
                 </ul>
-
             </div>
-
         </div>
         <p className='copyright'>Copyright © 2024. Todos los derechos reservados</p>
-
     </footer>
   )
 }

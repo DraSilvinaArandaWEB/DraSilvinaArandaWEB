@@ -153,9 +153,9 @@ ul li {
     }
 
     .nav .nav-container .nav-container-1 img {
-        width: 50px;
+        width: 40px;
         position: absolute;
-        top: 9px;
+        top: 15px;
         left: 30px;
     }
     
@@ -171,7 +171,8 @@ ul li {
 
     .nav .nav-container .nav-container-2 .navIcon {
         display: block;
-        width: 60px;
+        top: 15px;
+        width: 45px;
         opacity: 0.8;
         cursor: pointer;
     }
