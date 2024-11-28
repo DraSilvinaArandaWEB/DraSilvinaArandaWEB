@@ -14,7 +14,7 @@ export const Opiniones = () => {
       <div className="navbar-container">
       <Navbar></Navbar>
       </div>
-      <Banner title={"OPINIONES"} subtitle={"Nuestros pacientes nos definen"}></Banner>
+      <Banner title={"TESTIMONIOS"} subtitle={"Nuestros pacientes nos definen"}></Banner>
       <div className="cards-container">
         <div className="pink-line"></div>
         <div className="cards-container-inner">

@@ -38,9 +38,9 @@ export const Navbar = () => {
 
         <div className="nav-container-2">
           <ul>
-            <li className='link'><Link to={"/"}>INICIO</Link></li>
+            {/* <li className='link'><Link to={"/"}>INICIO</Link></li> */}
             <li className='link'><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
-            <li className='link'><Link to={"/Opiniones"}>OPINIONES</Link></li>
+            <li className='link'><Link to={"/Testimonios"}>TESTIMONIOS</Link></li>
             <li className='link'><Link to={"/Contacto"}>CONTACTO</Link></li>
           </ul>
           <img className='navIcon' src={navIconWhite} alt="navIcon" onClick={() => {changeNav()}}/>

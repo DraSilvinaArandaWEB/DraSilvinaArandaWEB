@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     element: <Faciales></Faciales>
   },
   {
-    path: "/Opiniones",
+    path: "/Testimonios",
     element: <Opiniones></Opiniones>
   },
   {
