@@ -91,7 +91,7 @@ export const Corporales = () => {
               <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                   La lipoescultura es la cirugía para eliminar adiposidades y modelar el cuerpo.
-                  Nos permite definir y adelgazar zonas de adiposidad localizada (papada, abdomen, flancos, muslos) además de dar forma a la cintura, al glúteo y al abdomen. Se realiza en quirófano, de forma semi ambulatoria, con Renuvion y con Lumiia. La diferencia respecto a MELA es que se puede trabajar integralmente en varias zonas del cuerpo a la vez, logrando en un unico procedimiento eliminar la grasa de varias zonas (abdomen y espalda completos, piernas, brazos, etc)
+                  Nos permite definir y adelgazar zonas de adiposidad localizada (papada, abdomen, flancos, muslos) además de dar forma a la cintura, al glúteo y al abdomen. Se realiza en quirófano, de forma semi ambulatoria, con Renuvion y con Lumiia. La diferencia respecto a MELA es que se puede trabajar integralmente en varias zonas del cuerpo a la vez, logrando en un unico procedimiento eliminar la grasa de varias zonas (abdomen y espalda completos, piernas, brazos, etc).
 
                 </div>
               </div>

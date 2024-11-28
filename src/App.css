@@ -341,12 +341,21 @@ html , body {
   opacity: 1;
 }
 
+.why-card .info h3 {
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 35px
+}
+
 .info p {
   width: 90%;
   margin-top: 6px;
   margin-left: 5%;
   font-family: var(--font-montserrat);
   font-size: 18px;
+  text-align: center;
 }
 /* RESERVATION SECTION */
 .app .reservation {
@@ -538,7 +547,7 @@ html , body {
   }
 
   .why .why-container .why-cards-container .why-card {
-    height: 295px;
+    height: 280px;
   }
 
   .why-card .number {
@@ -552,6 +561,16 @@ html , body {
   .why-card .info {
     width: 100%;
     height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .why-card .info h3 {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 0;
   }
 }
 

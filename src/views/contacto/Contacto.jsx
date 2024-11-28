@@ -16,17 +16,6 @@ export const Contacto = () => {
     }
   }
 
-  // const submit = (e) => {
-  //   e.preventDefault(); // Prevenir el envío por defecto
-  //   if (captcha.current.getValue()) {
-  //     console.log("CAPTCHA resuelto. Enviando formulario...");
-  //     e.target.submit(); // Enviar el formulario manualmente
-  //   } else {
-  //     console.log("CAPTCHA no resuelto. No se enviará el formulario.");
-  //     alert("Por favor, resuelve el CAPTCHA antes de enviar el formulario.");
-  //   }
-  // }
-
   const submit = async (e) => {
     e.preventDefault(); // Prevenir el comportamiento predeterminado
 

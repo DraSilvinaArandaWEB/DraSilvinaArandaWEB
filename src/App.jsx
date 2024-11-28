@@ -113,13 +113,15 @@ function App() {
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">01</h3>
               <div className="info">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aliquid ut sed alias non est animi sunt reiciendis ipsa voluptate, exercitationem aspernatur culpa, at sit nobis, fugit quis expedita quia? s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
+                <h3>Excelencia profesional certificada</h3>
+                <p>Contamos con formación médica especializada y experiencia garantizando tratamientos de alta calidad y resultados seguros</p>
               </div>
             </div>
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">02</h3>
               <div className="info">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel nobis suscipit modi id facilis! Voluptatem molestiae obcaecati, voluptates debitis sit possimus enim at eaque autem architecto. Voluptate provident quas est. s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
+                <h3>Espacios diseñados para tu confort</h3>
+                <p>Nuestro consultorio combina un ambiente cálido y profesional, asegurando que te sientas cómodo en cada etapa de tu transformación</p>
 
               </div>
 
@@ -127,8 +129,8 @@ function App() {
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">03</h3>
               <div className="info">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe labore mollitia optio voluptates deserunt dolor iure odit eaque accusamus! Atque expedita voluptas eius saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam ea! s saepe. Quis aut at dolor ullam</p>
-
+                <h3>Reputación y confianza de nuestros pacientes</h3>
+                <p>Testimonios positivos y resultados exitosos avalan nuestro compromiso con la satisfacción y felicidad de quienes nos eligen</p>
               </div>
 
             </div>

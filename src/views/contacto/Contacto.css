@@ -129,24 +129,33 @@ form .container-3 {
 
 .contact-container .whatsapp {
     width: 350px;
-    padding-bottom: 100px;
+    padding: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--strongpink-color);
+    border-radius: 10px;
 }
 
 .contact-container .whatsapp p {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .contact-container .whatsapp button {
     font-family: var(--font-montserrat);
     font-weight: 600;
-    width: 250px;
+    width: 304px;
     height: 45px;
     border-radius: 5px;
     border: none;
-    background-color: var(--strongpink-color);
-    color: white;
+    background-color: white;
+    color: var(--strongpink-color);
     font-size: 18px;
     transition: 0.2s;
 }

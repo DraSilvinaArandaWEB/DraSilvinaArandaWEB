@@ -38,7 +38,7 @@ export const Footer = () => {
                 <ul>
                     <li>AV Federico Lacroze 2252 CABA</li>
                     <li>silvinaaranda@gmail.com</li>
-                    <li>+54 9 011 565656</li>
+                    <li>+54 9 11 37696614</li>
                 </ul>
 
             </div>

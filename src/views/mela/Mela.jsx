@@ -43,7 +43,7 @@ export const Mela = () => {
       <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"}></Banner>
       <div className="container-mela">
         <div className="pink-line"></div>
-        <p>La mini liposucción o MELA es un procedimiento mínimamente invasivo, ideal para aquellos pacientes que quieren disminuir adiposidades localizadas que no logran reducirse con ejercicio, y que quieren ver resultados inmediatos. <br /><br />(Se puede hacer con Láser Lumiia y con Renuvion J Plasma)
+        <p>La mini liposucción o MELA es un procedimiento mínimamente invasivo, ideal para aquellos pacientes que quieren disminuir adiposidades localizadas que no logran reducirse con ejercicio, y que quieren ver resultados inmediatos. <br /><br />(Se puede hacer con Láser Lumiia y con Renuvion J Plasma).
         </p>
         <div className="pictures-container">
           <div className="picture-card"></div>
@@ -85,7 +85,7 @@ export const Mela = () => {
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Al terminar el procedimiento podrás volver a tu casa y el periodo de recuperación es corto. Se debe usar una faja y se realizan masajes para la inflamación (drenaje linfático)
+                  Al terminar el procedimiento podrás volver a tu casa y el periodo de recuperación es corto. Se debe usar una faja y se realizan masajes para la inflamación (drenaje linfático).
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ export const Mela = () => {
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Anestesia local
+                  Anestesia local.
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export const Mela = () => {
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Está indicado tanto en hombres como en  mujeres, que tengan adiposidad localizada con flacidez leve o moderada
+                  Está indicado tanto en hombres como en  mujeres, que tengan adiposidad localizada con flacidez leve o moderada.
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ export const Mela = () => {
               <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                   Los pasos son muy similares en ambos, y en los 2 casos la grasa es extraída en iguales cantidades.
-                  Durante la MELA láser agregamos un paso que es introducir la Cánula láser por el tejido adiposo y por la dermis. En lugar de extraer la grasa solamente por succión (MELA TRADICIONAL), con el láser producimos licuefacción de la misma. Eso hace que haya menos hematomas y una recuperación un más rápida. Además la liposucción o MELA se realiza de forma más homogénea
+                  Durante la MELA láser agregamos un paso que es introducir la Cánula láser por el tejido adiposo y por la dermis. En lugar de extraer la grasa solamente por succión (MELA TRADICIONAL), con el láser producimos licuefacción de la misma. Eso hace que haya menos hematomas y una recuperación un más rápida. Además la liposucción o MELA se realiza de forma más homogénea.
 
                 </div>
               </div>
