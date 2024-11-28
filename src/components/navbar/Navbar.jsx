@@ -28,12 +28,17 @@ export const Navbar = () => {
     })
   })
 
+  const clickIcon = () => {
+    document.body.style.overflowY= "auto"
+    setNav("nav")    
+
+  }
 
   return (
     <nav className={nav}>
       <div className="nav-container">
         <div className="nav-container-1">
-            <Link to={"/"}><img src={logo} alt="logo" /></Link> 
+            <Link to={"/"}><img src={logo} alt="logo" onClick={() => clickIcon()}/></Link> 
         </div>
 
         <div className="nav-container-2">
