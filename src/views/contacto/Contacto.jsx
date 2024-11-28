@@ -70,7 +70,7 @@ export const Contacto = () => {
       <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"}></Banner>
       <div className="contact-container">
         <div className="pink-line"></div>
-        <form action="https://formsubmit.co/frx.ros@gmail.com" onSubmit={submit} method='POST'>
+        <form action="https://formsubmit.co/frx.ros@gmail.com" method='POST'>
           <input type="hidden" name="_captcha" value="false"></input>
           <div className="container-1">
             <input type="text" name='nombre' placeholder='Nombre' required/>
