@@ -8,6 +8,30 @@
     justify-content: center;
 }
 
+.banner-socials {
+    width: 50px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 5px;
+    position: absolute;
+    right: 0;
+  }
+  
+  .banner-socials img {
+    width: 40px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .banner-socials img:hover {
+    opacity: 0.7;
+  }
+
+
+
 .banner .banner-info {
     text-align: center;
 }
@@ -37,5 +61,17 @@
 
     .banner-info p {
         font-size: 20px;
+    }
+
+    .banner .banner-socials {
+        width: 70px;
+        height: auto;
+        flex-direction: row;
+        left: calc(50% - 30px);
+        top: 300px;
+    }
+
+    .banner .banner-socials img {
+        width: 35px;
     }
 }

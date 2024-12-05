@@ -5,6 +5,7 @@ import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Mela = () => {
 
@@ -152,6 +153,10 @@ export const Mela = () => {
             </div>
           </div>
 
+        </div>
+        <div className="mela-next">
+          <Link to={"/Corporales"}>Corporales</Link>
+          <Link to={"/Faciales"}>Faciales</Link>
         </div>
       </div>
       <Footer></Footer>

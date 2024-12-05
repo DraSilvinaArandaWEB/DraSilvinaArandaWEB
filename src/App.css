@@ -23,8 +23,8 @@ html , body {
 }
 
 .app .socials-fixed {
-  width: 70px;
-  height: 110px;
+  width: 50px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@ html , body {
 }
 
 .app .socials-fixed img {
-  width: 50px;
+  width: 40px;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -50,7 +50,10 @@ html , body {
   width: 100%;
   height: calc(100vh);
   background-color: rgb(126, 107, 126);
-  background-image: url(./assets/ED406E.webp);
+  /* background-image: url(./assets/ED406E.webp); */
+  background-image: url(./assets/testBackground2.png);
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   display: block;
 }
@@ -109,7 +112,7 @@ html , body {
   padding-top: 100px;
 }
 
-.dra-info .title-icon {
+/* .dra-info .title-icon {
   width: 100%;
   height: auto;
   display: flex;
@@ -119,7 +122,7 @@ html , body {
 
 .title-icon img {
   width: 45px;
-}
+} */
 
 .title-icon h2 {
   font-family: var(--font-montserrat);
@@ -227,9 +230,29 @@ html , body {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.164);
   border-radius: 10px;
   transition: 1s;
-  background-image: url(https://www.drdamiangaleazzo.com/wp-content/uploads/2021/02/MELA.jpg);
+}
+
+.works-container .cards-container .works-card .img-mela ,
+.works-container .cards-container .works-card .img-corporales ,
+.works-container .cards-container .works-card .img-faciales {
+  width: 100%;
+  height: calc(100% - 50px);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-size: cover;
   background-position: center;
+}
+
+.works-container .cards-container .works-card .img-mela {
+  background-image: url(./assets/silvina1.webp);
+}
+
+.works-container .cards-container .works-card .img-corporales {
+  background-image: url(./assets/silvina2.webp);
+}
+
+.works-container .cards-container .works-card .img-faciales {
+  background-image: url(./assets/silvina3.webp);
 }
 
 .works-container .cards-container .works-card:hover {
@@ -487,6 +510,10 @@ html , body {
 }
 
 @media screen and (max-width: 800px) {
+  .app .banner {
+    background-image: url(./assets/testMobileBackground.png);
+  }
+
   .banner .banner-main h1 {
     font-size: 45px;
   }

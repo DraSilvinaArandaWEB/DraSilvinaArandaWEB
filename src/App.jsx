@@ -37,7 +37,7 @@ function App() {
         <div className="about-container">
           <div className="dra-info">
             <div className="title-icon">
-              <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="dra silvina aranda picture" />
+              {/* <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="dra silvina aranda picture" /> */}
               <h2>DRA SILVINA ARANDA</h2>
             </div>
             <p>Cirugía plástica estética & reparadora</p>
@@ -79,6 +79,7 @@ function App() {
           <div className="cards-container">
             <Link to={"./Mela"}>
               <div className="works-card" data-aos="fade-up">
+                <div className="img-mela"></div>
                 <div className="card-info">
                   <p>MELA</p>
                   <img src={arrowIcon} alt="arrow icon" />
@@ -87,6 +88,7 @@ function App() {
             </Link>
             <Link to={"./Corporales"}>
               <div className="works-card" data-aos="fade-up">
+              <div className="img-corporales"></div>
                 <div className="card-info">
                   <p>CORPORALES</p>
                   <img src={arrowIcon} alt="arrow icon" />
@@ -95,6 +97,7 @@ function App() {
             </Link>
             <Link to={"./Faciales"}>
               <div className="works-card" data-aos="fade-up">
+              <div className="img-faciales"></div>
                 <div className="card-info">
                   <p>FACIALES</p>
                   <img src={arrowIcon} alt="arrow icon" />

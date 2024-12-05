@@ -17,7 +17,9 @@
     top: 0;
     right: 0;
     background-attachment: fixed;
-    background-image: url(/src/assets/ED406E.webp);
+    background-image: url(../../assets/testBackground2.png);
+    background-size: cover;
+    background-position: center;
 }
 
 /* NAV CONTAINER */
@@ -150,6 +152,7 @@ ul li {
 
     .nav {
         height: 80px;
+        background-image: url(../../assets/testMobileBackground.png);
     }
 
     .nav .nav-container .nav-container-1 img {

@@ -13,6 +13,32 @@
     padding-bottom: 100px;
 }
 
+.container-mela .mela-next {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.mela-next a {
+    background-color: #ED406E;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 39px;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+.mela-next a:hover {
+    opacity: 0.7;
+}
+
 .container-mela .pink-line {
     width: 585px;
     height: 5px;
@@ -125,6 +151,14 @@
 
     .container-mela .accordion-container .title {
         font-size: 28px;
+    }
+
+    .container-mela .mela-next {
+        justify-content: center;
+    }
+
+    .mela-next a {
+        font-size: 12px;
     }
 }
 

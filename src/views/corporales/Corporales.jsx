@@ -5,6 +5,7 @@ import { Banner } from '../../components/banner/Banner'
 import { Footer } from '../../components/footer/Footer'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Corporales = () => {
 
@@ -119,6 +120,10 @@ export const Corporales = () => {
             </div>
           </div>
 
+        </div>
+        <div className="corporales-next">
+          <Link to={"/Mela"}>Mela</Link>
+          <Link to={"/Faciales"}>Faciales</Link>
         </div>
       </div>
       <Footer></Footer>

@@ -5,6 +5,32 @@
     padding-bottom: 100px;
 }
 
+.container-faciales .faciales-next {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.faciales-next a {
+    background-color: #ED406E;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--font-montserrat);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 13px 39px;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+.faciales-next a:hover {
+    opacity: 0.7;
+}
+
 .container-faciales .pink-line {
     width: 585px;
     height: 5px;
@@ -65,5 +91,13 @@
 
     .container-faciales .accordion-container .title {
         font-size: 28px;
+    }
+
+    .container-faciales .faciales-next {
+        justify-content: center;
+    }
+
+    .faciales-next a {
+        font-size: 12px;
     }
 }

@@ -5,6 +5,7 @@ import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Faciales = () => {
 
@@ -149,6 +150,10 @@ Se realiza con anestesia local mas una leve sedacion para mayor confort. La recu
             </div>
           </div>
 
+        </div>
+        <div className="faciales-next">
+          <Link to={"/Mela"}>Mela</Link>
+          <Link to={"/Corporales"}>Corporales</Link>
         </div>
       </div>
       <Footer></Footer>
