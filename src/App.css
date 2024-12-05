@@ -50,7 +50,6 @@ html , body {
   width: 100%;
   height: calc(100vh);
   background-color: rgb(126, 107, 126);
-  /* background-image: url(./assets/ED406E.webp); */
   background-image: url(./assets/testBackground2.png);
   background-size: cover;
   background-position: center;
@@ -512,6 +511,9 @@ html , body {
 @media screen and (max-width: 800px) {
   .app .banner {
     background-image: url(./assets/testMobileBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .banner .banner-main h1 {

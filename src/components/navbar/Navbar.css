@@ -153,6 +153,9 @@ ul li {
     .nav {
         height: 80px;
         background-image: url(../../assets/testMobileBackground.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 
     .nav .nav-container .nav-container-1 img {
