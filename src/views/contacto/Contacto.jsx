@@ -7,6 +7,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 export const Contacto = () => {
 
+  const refWhatsapp = useRef(null)
   const captcha = useRef(null)
   const [buttonText, setButtonText] = useState('ENVIAR');
 
@@ -51,8 +52,29 @@ export const Contacto = () => {
     }
   };
 
+  const animateWhatsapp = () => {
+    if(refWhatsapp.current){
+     refWhatsapp.current.style.opacity = "1"
+      refWhatsapp.current.style.right = "70px"
+    }
+  }
+
+  const outWhatsapp = () => {
+    if(refWhatsapp.current){
+      refWhatsapp.current.style.opacity = "0"
+       refWhatsapp.current.style.right = "-300px"
+     }
+  }
+
   return (
     <div>
+      <div className="whatsapp-fixed">
+        <div className='whatsapp-message' ref={refWhatsapp}>
+          <p>¡Hola! Agendá una cita hoy</p>
+          <div className="right"></div>
+        </div>
+        <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
+      </div>
       <div className="navbar-container">
         <Navbar></Navbar>
       </div>

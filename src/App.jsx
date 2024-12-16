@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useRef , useEffect} from 'react';
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
@@ -12,14 +12,41 @@ import whatsappIcon from './assets/whastappIcon.webp'
 
 function App() {
 
+  const refWhatsapp = useRef(null)
+
   useEffect(() => {
     AOS.init()
   }, [])
 
   document.body.style.overflowX = "hidden"
 
+  const animateWhatsapp = () => {
+    if(refWhatsapp.current){
+     refWhatsapp.current.style.opacity = "1"
+      refWhatsapp.current.style.right = "70px"
+    }
+  }
+
+  const outWhatsapp = () => {
+    if(refWhatsapp.current){
+      refWhatsapp.current.style.opacity = "0"
+       refWhatsapp.current.style.right = "-300px"
+     }
+  }
+
+  
+
+  
+
   return (
     <div className="app">
+      <div className="whatsapp-fixed">
+        <div className='whatsapp-message' ref={refWhatsapp}>
+          <p>¡Hola! Agendá una cita hoy</p>
+          <div className="right"></div>
+        </div>
+        <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
+      </div>
       <div className="socials-fixed">
         <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon" /></a>
         <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
@@ -28,7 +55,7 @@ function App() {
       <div className="banner">
         <Navbar></Navbar>
         <div className="banner-main">
-          <h1>DRA SILVINA ARANDA</h1>
+          <h1>Dra Silvina Aranda</h1>
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">AGENDÁ TU CITA</a>
         </div>
       </div>

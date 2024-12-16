@@ -3,6 +3,10 @@
     height: auto;
 }
 
+.whatsapp-fixed {
+    z-index: 50;
+}
+
 .antesydespues .img-container {
     margin: auto;
     width: 1200px;

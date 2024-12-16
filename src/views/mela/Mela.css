@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: start;
     gap: 15px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .mela-next a {
@@ -38,6 +38,66 @@
 .mela-next a:hover {
     opacity: 0.7;
 }
+
+.whatsapp-fixed {
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .whatsapp-fixed .whatsapp-message {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    position: absolute;
+    right: -300px;
+    opacity: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(85, 85, 85, 0.37);
+    transition: 1s;
+    z-index: 20;
+  }
+  
+ .whatsapp-fixed .whatsapp-message p {
+    margin-top: 12px;
+    font-weight: 600;
+  }
+  
+  .whatsapp-message .right {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    rotate: 50deg;
+    position: absolute;
+    top: 8px;
+    right: -2px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .whatsapp-fixed img {
+    width: 50px;
+    z-index: 30;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .whatsapp-fixed img:hover {
+    scale: 0.9;
+  }
+  
+   .whatsapp-fixed a {
+    z-index: 30;
+  }
 
 .container-mela .pink-line {
     width: 585px;
@@ -110,7 +170,7 @@
     font-weight: 600;
     font-size: 40px;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     color: var(--black-color);
 }
 
