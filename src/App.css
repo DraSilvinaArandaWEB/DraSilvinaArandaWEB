@@ -149,7 +149,6 @@ html , body {
   margin-top: 20px;
   font-weight: 600;
   background-color: var(--strongpink-color);
-  border: 2px solid white;
   text-decoration: none;
   color: var(--white-color);
   transition: 0.2s;
@@ -157,7 +156,6 @@ html , body {
 
 .banner .banner-main a:hover {
   background-color: var(--smothpink-color);
-  border: 2px solid var(--smothpink-color);
 }
 
 /* ABOUT SECTION */
