@@ -5,8 +5,8 @@
 :root {
   --white-color: #FFF;
   --gray-color: #F5F5F5;
-  --smothpink-color: #FF93B3;
-  --strongpink-color: #ED406E;
+  --smothpink-color: #c5e4d2;
+  --strongpink-color: #6fd199;
   --black-color: rgba(0, 0, 0, 0.781);
   --font-montserrat: "Montserrat", sans-serif;
 }
@@ -102,6 +102,8 @@ html , body {
   width: 40px;
   transition: 0.2s;
   cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .app .socials-fixed img:hover {
@@ -112,11 +114,9 @@ html , body {
 .app .banner {
   width: 100%;
   height: calc(100vh);
-  background-color: rgb(126, 107, 126);
-  /* background-image: url(./assets/testBackground2.png); */
-  background-image: url(./assets/testBackground4.png);
+  background-image: url(./assets/testBackground5.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-attachment: fixed;
   display: block;
 }
@@ -583,12 +583,12 @@ html , body {
 }
 
 @media screen and (max-width: 800px) {
-  .app .banner {
+  /* .app .banner {
     background-image: url(./assets/testMobileBackground.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
+  } */
 
   .banner .banner-main h1 {
     font-size: 45px;

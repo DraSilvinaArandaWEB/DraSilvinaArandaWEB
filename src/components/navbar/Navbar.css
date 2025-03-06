@@ -16,8 +16,9 @@
     position: absolute;
     top: 0;
     right: 0;
+    background-color: transparent;
     background-attachment: fixed;
-    background-image: url(../../assets/testBackground4.png);
+    /* background-image: url(../../assets/testBackground4.png); */
     background-size: cover;
     background-position: center;
 }
@@ -75,7 +76,7 @@ ul li {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    color: var(--white-color);
+    /* color: var(--white-color); */
     transition: 0.2s;
 }
 
@@ -152,10 +153,6 @@ ul li {
 
     .nav {
         height: 80px;
-        background-image: url(../../assets/testMobileBackground.png);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
     }
 
     .nav .nav-container .nav-container-1 img {

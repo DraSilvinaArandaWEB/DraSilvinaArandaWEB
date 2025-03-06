@@ -34,8 +34,11 @@ export const Navbar = () => {
 
   }
 
+  const currentUrl = window.location.href;
+
   return (
     <nav className={nav}>
+      {/* style={{backgroundColor: !currentUrl.includes('https://www.drasilvinaaranda.com/') ? "red" : "blue"}} */}
       <div className="nav-container">
         <div className="nav-container-1">
             <Link to={"/"}><img src={logo} alt="logo" onClick={() => clickIcon()}/></Link> 
@@ -44,7 +47,7 @@ export const Navbar = () => {
         <div className="nav-container-2">
           <ul>
             {/* <li className='link'><Link to={"/"}>INICIO</Link></li> */}
-            <li className='link'><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
+            <li className='link' style={{color: !currentUrl.includes('https://www.drasilvinaaranda.com/') ? "red" : "blue"}}><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
             <li className='link'><Link to={"/Antes&Despues"}>ANTES & DESPUES</Link></li>
             <li className='link'><Link to={"/Testimonios"}>TESTIMONIOS</Link></li>
             <li className='link'><Link to={"/Contacto"}>CONTACTO</Link></li>

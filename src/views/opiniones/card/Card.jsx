@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-import textIcon from '../../../assets/textIcon.webp'
+import textIcon from '../../../assets/commentIcon.png'
 
 export const Card = ({img , text , name}) => {
   return (

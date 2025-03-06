@@ -5,6 +5,18 @@ import { Navbar } from '../../components/navbar/Navbar'
 import { Banner } from '../../components/banner/Banner'
 import { AntesYdespuesCard } from './antesYdespuesCard/AntesYdespuesCard'
 import { Footer } from '../../components/footer/Footer'
+import Rinoplastia from '../../assets/Rinoplastia.png'
+import HilosTensores from '../../assets/HilosTensores.png'
+import Blefaroplastia from '../../assets/Blefaroplastia.png'
+import Bichectomia from '../../assets/Bichectomia.png'
+import ArmonizacionFacial from '../../assets/ArmonizacionFacial.png'
+import RellenoLabios from '../../assets/RellenoLabios.png'
+import RellenoMenton from '../../assets/RellenoMenton.png'
+import RellenoOjeras from '../../assets/RellenoOjeras.png'
+import RellenoPomulos from '../../assets/RellenoPomulos.png'
+import Rinomodelacion from '../../assets/Rinomodelacion.png'
+import Mamoplastia from '../../assets/Mamoplastia.png'
+import VideoTest from '../../assets/videoTest.mp4'
 
 export const AntesYdespues = () => {
 
@@ -38,18 +50,18 @@ export const AntesYdespues = () => {
         <div className="img-container">
             <div className="pink-line"></div>
             <div className="img-card-container">
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
-                <AntesYdespuesCard></AntesYdespuesCard>
+                <AntesYdespuesCard serviceName={"Toxina Botulinica"} src={VideoTest} isVideo={true}/>
+                <AntesYdespuesCard serviceName={"Hilos Tensores"} src={HilosTensores}/>
+                <AntesYdespuesCard serviceName={"Rinoplastia"} src={Rinoplastia}/>
+                <AntesYdespuesCard serviceName={"Beflaroplastia"} src={Blefaroplastia}/>
+                <AntesYdespuesCard serviceName={"Bichectomia"} src={Bichectomia}/>
+                <AntesYdespuesCard serviceName={"Armonización Facial"} src={ArmonizacionFacial}/>
+                <AntesYdespuesCard serviceName={"Relleno de Labios"} src={RellenoLabios}/>
+                <AntesYdespuesCard serviceName={"Relleno de Menton y Mandibula"} src={RellenoMenton}/>
+                <AntesYdespuesCard serviceName={"Relleno de Ojeras"} src={RellenoOjeras}/>
+                <AntesYdespuesCard serviceName={"Relleno de Pomulos"} src={RellenoPomulos}/>
+                <AntesYdespuesCard serviceName={"Rinomodelacion"} src={Rinomodelacion}/>
+                <AntesYdespuesCard serviceName={"Mamoplastia"} src={Mamoplastia}/>
             </div>
         </div>
         <Footer></Footer>

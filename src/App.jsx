@@ -5,10 +5,10 @@ import { Navbar } from './components/navbar/Navbar'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import textIcon from './assets/textIcon.webp'
+import commentIcon from './assets/commentIcon.png'
 import arrowIcon from './assets/arrowIcon.webp'
-import instagramIcon from './assets/instagramIcon.webp'
-import whatsappIcon from './assets/whastappIcon.webp'
+import instagramIcon from './assets/instagramIcon.png'
+import whatsappIcon from './assets/whatsappIcon.png'
 
 function App() {
 
@@ -72,7 +72,7 @@ function App() {
           <div className="about-cards-container">
             <div className="about-card">
               <div className="img">
-                <img src={textIcon} alt="text icon" />
+                <img src={commentIcon} alt="text icon" />
               </div>
               <div className="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
@@ -80,7 +80,7 @@ function App() {
             </div>
             <div className="about-card">
               <div className="img">
-                <img src={textIcon} alt="text icon" />
+                <img src={commentIcon} alt="text icon" />
               </div>
               <div className="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
@@ -88,7 +88,7 @@ function App() {
             </div>
             <div className="about-card">
               <div className="img">
-                <img src={textIcon} alt="text icon" />
+                <img src={commentIcon} alt="text icon" />
               </div>
               <div className="info">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
