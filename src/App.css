@@ -111,7 +111,7 @@ html , body {
 .app .banner {
   width: 100%;
   height: calc(100vh);
-  background-image: url(./assets/test.png);
+  background-image: url(./assets/background.webp);
   background-size: cover;
   background-position: left;
   background-attachment: fixed;
@@ -187,7 +187,7 @@ html , body {
 .consultorio-container .consultorio-img {
   width: 40%;
   height: 100%;
-  background-image: url(./assets/consultorio.png);
+  background-image: url(./assets/consultorio.webp);
   background-size: cover;
   background-position: center;
 }
@@ -245,7 +245,7 @@ html , body {
 .app .about {
   width: 100%;
   height: auto;
-  background-color: var(--white-color);
+  background-color: var(--gray-color);
   z-index: 10;
 }
 
@@ -325,7 +325,7 @@ html , body {
   width: 100%;
   height: auto;
   padding-top: 100px;
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
   padding-bottom: 100px;
   z-index: 10;
 }

@@ -70,18 +70,6 @@ function App() {
         </div>
 
       </section>
-      {/* TESTIMONIOS SECTION */}
-      <section className='testimonios' id='testimonios'>
-        <div className='testimonios-container'>
-          <h2>NUESTROS PACIENTES NOS RECOMIENDAN</h2>
-          <div className="cards-container">
-            {Testimonios?.map((info) => {
-              return <Card/>
-            })}
-
-          </div>
-        </div>
-      </section>
       {/* ABOUT SECTION */}
       <section className="about">
         <div className="about-container">
@@ -119,7 +107,6 @@ function App() {
             </div>
           </div>
         </div>
-
       </section>
       {/* WORKS SECTION */}
       <article className="works" id='work'>
@@ -156,8 +143,19 @@ function App() {
             </Link>
           </div>
         </div>
-
       </article>
+      {/* TESTIMONIOS SECTION */}
+      <section className='testimonios' id='testimonios'>
+        <div className='testimonios-container'>
+          <h2>NUESTROS PACIENTES NOS RECOMIENDAN</h2>
+          <div className="cards-container">
+            {Testimonios?.map((info) => {
+              return <Card/>
+            })}
+
+          </div>
+        </div>
+      </section>
       {/* WHY SECTION */}
       <section className="why">
         <div className="why-container">
