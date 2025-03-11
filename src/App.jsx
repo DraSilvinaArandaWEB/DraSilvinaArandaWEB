@@ -9,6 +9,8 @@ import commentIcon from './assets/commentIcon.png'
 import arrowIcon from './assets/arrowIcon.webp'
 import instagramIcon from './assets/instagramIcon.png'
 import whatsappIcon from './assets/whatsappIcon.png'
+import Testimonios from './components/opinionesInfo/opiniones.json'
+import { Card } from './components/card/Card';
 
 function App() {
 
@@ -34,10 +36,6 @@ function App() {
      }
   }
 
-  
-
-  
-
   return (
     <div className="app">
       <div className="whatsapp-fixed">
@@ -47,18 +45,43 @@ function App() {
         </div>
         <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
       </div>
-      <div className="socials-fixed">
-        <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon" /></a>
-        <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
-      </div>
       {/* MAIN SECTION */}
       <div className="banner">
         <Navbar></Navbar>
         <div className="banner-main">
           <h1>Dra Silvina Aranda</h1>
-          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">AGENDÁ TU CITA</a>
+          <div className="banner-main-2">
+          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!" className='agenda'>AGENDÁ TU CITA</a>
+          <div className="socials-fixed">
+          <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon"/></a>
+          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
+          </div>
+          </div>
         </div>
       </div>
+      {/* CONSULTORIO SECTION */}
+      <section className='consultorio'>
+        <div className='consultorio-container'>
+          <div className="consultorio-img"></div>
+          <div className="consultorio-info">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum qui laboriosam ipsam quaerat alias quia dolore aliquam neque facere laudantium nemo nihil officiis, possimus, quas, amet et quae mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat fuga porro delectus. Officiis vitae iusto libero, adipisci recusandae fugit enim magni soluta nesciunt nostrum, tempore culpa hic voluptate molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati inventore dolor commodi deleniti sapiente nam eum, quidem, sunt similique et consequuntur facilis. Explicabo et ipsa reprehenderit odio eligendi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis natus obcaecati suscipit optio accusamus accusantium iusto. Et, molestiae! Molestiae exercitationem.</p>
+          </div>
+
+        </div>
+
+      </section>
+      {/* TESTIMONIOS SECTION */}
+      <section className='testimonios' id='testimonios'>
+        <div className='testimonios-container'>
+          <h2>NUESTROS PACIENTES NOS RECOMIENDAN</h2>
+          <div className="cards-container">
+            {Testimonios?.map((info) => {
+              return <Card/>
+            })}
+
+          </div>
+        </div>
+      </section>
       {/* ABOUT SECTION */}
       <section className="about">
         <div className="about-container">
@@ -102,7 +125,7 @@ function App() {
       <article className="works" id='work'>
         <div className="works-container">
           <h2>PROCEDIMIENTOS</h2>
-          <p>MELA , Corporales y Faciales</p>
+          <p>MELA , Tratamientos CORPORALES y FACIALES</p>
           <div className="cards-container">
             <Link to={"./Mela"}>
               <div className="works-card" data-aos="fade-up">

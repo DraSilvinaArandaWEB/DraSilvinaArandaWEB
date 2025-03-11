@@ -87,19 +87,16 @@ html , body {
 
 .app .socials-fixed {
   width: 50px;
-  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; 
+  margin-left: 40px;
   gap: 5px;
-  position: absolute;
-  top: calc(50vh);
-  right: 0;
 }
 
 .app .socials-fixed img {
   width: 40px;
+  height: 40px;
   transition: 0.2s;
   cursor: pointer;
   background-color: white;
@@ -114,19 +111,22 @@ html , body {
 .app .banner {
   width: 100%;
   height: calc(100vh);
-  background-image: url(./assets/testBackground5.png);
+  background-image: url(./assets/test.png);
   background-size: cover;
   background-position: left;
   background-attachment: fixed;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .banner .banner-main {
+  width: auto;
+  margin-left: 210px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
   flex-direction: column;
-  height: calc(100vh - 70px);
 }
 
 .banner .banner-main h1 {
@@ -134,19 +134,18 @@ html , body {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 60px;
+  font-size: 50px;
   color: var(--white-color);
   margin: 0;
 }
 
-.banner .banner-main a {
+.banner .banner-main .agenda {
   font-family: var(--font-montserrat);
   width: 250px;
   height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
   font-weight: 600;
   background-color: var(--strongpink-color);
   text-decoration: none;
@@ -154,15 +153,99 @@ html , body {
   transition: 0.2s;
 }
 
-.banner .banner-main a:hover {
+.banner .banner-main .agenda:hover {
   background-color: var(--smothpink-color);
+}
+
+.banner .banner-main-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONSULTORIO SECTION */
+.app .consultorio {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 10;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.consultorio .consultorio-container {
+  width: 1200px;
+  height: 500px;
+  background-color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: auto;
+}
+
+.consultorio-container .consultorio-img {
+  width: 40%;
+  height: 100%;
+  background-image: url(./assets/consultorio.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.consultorio-container .consultorio-info {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consultorio-container .consultorio-info p {
+  font-family: var(--font-montserrat);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* TESTIMONIOS SECTION */
+.app .testimonios {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--gray-color);
+  z-index: 10;
+}
+
+.testimonios .testimonios-container {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+.testimonios-container h2 {
+  font-family: var(--font-montserrat);
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.testimonios-container .cards-container {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* ABOUT SECTION */
 .app .about {
   width: 100%;
   height: auto;
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
   z-index: 10;
 }
 
@@ -179,17 +262,6 @@ html , body {
   padding-top: 100px;
 }
 
-/* .dra-info .title-icon {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title-icon img {
-  width: 45px;
-} */
 
 .title-icon h2 {
   font-family: var(--font-montserrat);
@@ -253,7 +325,7 @@ html , body {
   width: 100%;
   height: auto;
   padding-top: 100px;
-  background-color: var(--white-color);
+  background-color: var(--gray-color);
   padding-bottom: 100px;
   z-index: 10;
 }
@@ -369,7 +441,7 @@ html , body {
 .app .why {
   width: 100%;
   height: auto;
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
   padding-top: 100px;
   padding-bottom: 100px;
   z-index: 10;
@@ -453,7 +525,7 @@ html , body {
 .app .reservation {
   width: 100%;
   height: auto;
-  background-color: var(--white-color);
+  background-color: var(--gray-color);
   display: flex;
   align-items: center;
   justify-content: center;

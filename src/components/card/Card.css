@@ -1,0 +1,77 @@
+
+.card-opiniones {
+    width: 290px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.164);
+}
+
+.card-opiniones:hover {
+    scale: 1.05;
+}
+
+.card-opiniones .info {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+    margin-top: 5px;
+}
+
+.info .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #6fd199;
+    border-radius: 30px;
+}
+
+.info .name {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.info .name h3 {
+    font-size: 17px;
+    margin: 0;
+}
+
+.info .name p {
+    font-size: 14px;
+    margin: 0;
+    margin-left: -10px;
+}
+
+.card-opiniones .text {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+}
+
+.card-opiniones .text p {
+    font-size: 14px;
+}
+
+.card-opiniones .leerMas {
+    color: rgb(102, 102, 102);
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+.card-opiniones .googleIcon {
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+

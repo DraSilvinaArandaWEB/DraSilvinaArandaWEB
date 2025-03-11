@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { Mela } from './views/mela/Mela.jsx'
 import { Corporales } from './views/corporales/Corporales.jsx'
 import { Faciales } from './views/faciales/Faciales.jsx'
-import { Opiniones } from './views/opiniones/Opiniones.jsx'
 import { Contacto } from './views/contacto/Contacto.jsx'
 import {
   createBrowserRouter,
@@ -34,10 +33,6 @@ const router = createBrowserRouter([
   {
     path: "/Faciales",
     element: <Faciales></Faciales>
-  },
-  {
-    path: "/Testimonios",
-    element: <Opiniones></Opiniones>
   },
   {
     path: "/Contacto",

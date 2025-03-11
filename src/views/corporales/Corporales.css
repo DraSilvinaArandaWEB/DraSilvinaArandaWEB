@@ -16,7 +16,7 @@
 }
 
 .corporales-next a {
-    background-color: #ED406E;
+    background-color: var(--strongpink-color);
     border-radius: 5px;
     color: white;
     font-family: var(--font-montserrat);

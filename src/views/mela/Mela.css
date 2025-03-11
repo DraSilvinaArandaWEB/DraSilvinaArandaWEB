@@ -1,11 +1,3 @@
-:root {
-    --white-color: #FFF;
-    --gray-color: #F5F5F5;
-    --smothpink-color: #FF93B3;
-    --strongpink-color: #ED406E;
-    --black-color: rgba(0, 0, 0, 0.781);
-}
-
 .container-mela {
     width: 1200px;
     height: auto;
@@ -24,7 +16,7 @@
 }
 
 .mela-next a {
-    background-color: #ED406E;
+    background-color: var(--strongpink-color);
     border-radius: 5px;
     color: white;
     font-family: var(--font-montserrat);
