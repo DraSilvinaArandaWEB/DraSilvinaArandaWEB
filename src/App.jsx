@@ -38,6 +38,10 @@ function App() {
 
   return (
     <div className="app">
+       <div className="socials-fixed">
+          <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon"/></a>
+          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
+          </div>
       <div className="whatsapp-fixed">
         <div className='whatsapp-message' ref={refWhatsapp}>
           <p>¡Hola! Agendá una cita hoy</p>
@@ -52,10 +56,7 @@ function App() {
           <h1>Dra Silvina Aranda</h1>
           <div className="banner-main-2">
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!" className='agenda'>AGENDÁ TU CITA</a>
-          <div className="socials-fixed">
-          <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon"/></a>
-          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
-          </div>
+          <a href="#procedimientos" className='procedimientos'>PROCEDIMIENTOS</a>
           </div>
         </div>
       </div>
@@ -150,7 +151,7 @@ function App() {
           <h2>NUESTROS PACIENTES NOS RECOMIENDAN</h2>
           <div className="cards-container">
             {Testimonios?.map((info) => {
-              return <Card/>
+              return <Card text={info.message} img={info.icon} date={info.date} name={info.name}/>
             })}
 
           </div>

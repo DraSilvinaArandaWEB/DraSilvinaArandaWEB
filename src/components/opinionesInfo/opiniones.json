@@ -1,25 +1,29 @@
 [
     {
-        "nombre": "name",
-        "icon": "iconRoute",
-        "message": "message"
+        "name": "Ever Contigiani",
+        "date": "HOY",
+        "icon": "https://lh3.googleusercontent.com/a-/ALV-UjW6AmQnVWCL4_ljwWFW5KD9CzCoji98YUjzKwg4rikKrXskvY0=w60-h60-p-rp-mo-br100",
+        "message": "La doctora Silvina es una excelente profesional. Cuenta con un equipo que la acompaña de primera línea. Una doctora atenta, que acompaña y sostiene al paciente en todo momento. A parte, un consultorio increíble que te dan ganas de quedarte a vivir en uno de los mejores barrios de capital federal!"
     } ,
 
     {
-        "nombre": "name",
-        "icon": "iconRoute",
-        "message": "message"
+        "name": "The Beauty Club",
+        "date": "HOY",
+        "icon": "https://lh3.googleusercontent.com/a-/ALV-UjW_GxCvEWboDHNtZU44jJCpBo-Dz06TmPGNG_YoVOBZT1VAFgkC=w60-h60-p-rp-mo-br100",
+        "message": "Hace dos años me realicé una mela de papada y ha sido la mejor decisión que pude hacer en manos de la doctora Silvina! Atención especializada y trato cordial. Recomendaba mil veces!"
     } ,
 
     {
-        "nombre": "name",
-        "icon": "iconRoute",
-        "message": "message"
+        "name": "Maria Paucar",
+        "date": "HOY",
+        "icon": "https://lh3.googleusercontent.com/a/ACg8ocICwnzxJYeGJP8JG6nsrFQnoa7V6bASYxBrEabKqVvEPq8weA=w60-h60-p-rp-mo-br100",
+        "message": "Excelente profesional ! 100 x ciento recomendable,en mes de octubre me hice mela de abdomen completo  estoy muy feliz con los resultados ,mil gracias Dra silvina Aranda"
     } , 
 
     {
-        "nombre": "name",
-        "icon": "iconRoute",
-        "message": "message"
+        "name": "Adriana Castagno",
+        "date": "HOY",
+        "icon": "https://lh3.googleusercontent.com/a/ACg8ocJOcqbmK1NK9uctq-B16OAZQqN5fY57nAvLGqiW6LZgNl7HzQ=w60-h60-p-rp-mo-br100",
+        "message": "Excelente profesional y equipo!!! Me hice MELA láser de abdómen completo hace algunos días y estoy muy contenta con el resultado. La doc 10 puntos en todo momento, gracias totales!!!! 😊"
     } 
 ]

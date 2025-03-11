@@ -1,7 +1,7 @@
 
 .card-opiniones {
     width: 290px;
-    height: 250px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -30,6 +30,8 @@
     width: 40px;
     height: 40px;
     background-color: #6fd199;
+    background-size: cover;
+    background-position: center;
     border-radius: 30px;
 }
 
@@ -46,14 +48,15 @@
 }
 
 .info .name p {
+    text-align: start;
     font-size: 14px;
     margin: 0;
-    margin-left: -10px;
 }
 
 .card-opiniones .text {
     width: 100%;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: auto;
 }
 
@@ -75,3 +78,12 @@
     right: 15px;
 }
 
+.card-opiniones .stars {
+    width: 100%;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.stars img {
+    height: 15px;
+}
