@@ -98,7 +98,6 @@ html , body {
 
 .app .socials-fixed img {
   width: 40px;
-  height: 40px;
   transition: 0.2s;
   cursor: pointer;
   background-color: white;
@@ -116,7 +115,6 @@ html , body {
   background-image: url(./assets/background.webp);
   background-size: cover;
   background-position: left;
-  /* background-attachment: fixed; */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -154,7 +152,6 @@ html , body {
   font-family: var(--font-montserrat);
   width: 50%;
   height: 50px;
-  /* border-radius: 5px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,7 +166,6 @@ html , body {
   font-family: var(--font-montserrat);
   width: 50%;
   height: 50px;
-  /* border-radius: 5px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,6 +180,8 @@ html , body {
   background-color: var(--smothpink-color);
 }
 
+/* CONSULTORIO SECTION */
+/* CONSULTORIO SECTION */
 /* CONSULTORIO SECTION */
 .app .consultorio {
   width: 100%;
@@ -212,7 +210,6 @@ html , body {
   background-image: url(./assets/consultorio.webp);
   background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
   border-bottom-left-radius: 70px;
 }
 
@@ -230,7 +227,9 @@ html , body {
   font-size: 20px;
 }
 
-/* TESTIMONIOS SECTION */
+/* COMMENTS SECTION */
+/* COMMENTS SECTION */
+/* COMMENTS SECTION */
 .app .testimonios {
   width: 100%;
   height: auto;
@@ -346,6 +345,8 @@ html , body {
   font-weight: 300;
 } */
 
+/* WORKS SECTION */
+/* WORKS SECTION */
 /* WORKS SECTION */
 .app .works {
   width: 100%;
@@ -464,6 +465,8 @@ html , body {
 }
 
 /* WHY SECTION */
+/* WHY SECTION */
+/* WHY SECTION */
 .app .why {
   width: 100%;
   height: auto;
@@ -548,6 +551,8 @@ html , body {
   text-align: center;
 }
 /* RESERVATION SECTION */
+/* RESERVATION SECTION */
+/* RESERVATION SECTION */
 .app .reservation {
   width: 100%;
   height: auto;
@@ -608,10 +613,6 @@ html , body {
 }
 
 @media screen and (max-width: 1200px) {
-
-  /* BANNER */
-
-  /* ABOUT */
   .about .about-container {
     width: 90%;
   }
@@ -643,7 +644,6 @@ html , body {
     width: 100%;
   }
 
-  /* WHY */
   .why .why-container {
     width: 90%;
   }
@@ -655,7 +655,6 @@ html , body {
 
 @media screen and (max-width: 1000px) {
 
-  /* ABOUT */
   .about .about-container .about-cards-container {
     flex-direction: column;
     gap:30px;
@@ -680,13 +679,11 @@ html , body {
     height: 500px;
   }
 
-  /* WORKS */
   .works .works-container .cards-container {
     flex-direction: column;
     gap: 30px;
   }
 
-  /* WHY */
   .why .why-container .why-cards-container {
     flex-direction: column;
     height: auto;

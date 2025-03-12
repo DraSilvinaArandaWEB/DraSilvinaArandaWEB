@@ -3,15 +3,13 @@ import { createRoot } from 'react-dom/client'
 import { Mela } from './views/mela/Mela.jsx'
 import { Corporales } from './views/corporales/Corporales.jsx'
 import { Faciales } from './views/faciales/Faciales.jsx'
-import { Contacto } from './views/contacto/Contacto.jsx'
+import { Contacto } from './views/contact/Contacto.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
 } from "react-router-dom";
 import App from './App.jsx'
-import { AntesYdespues } from './views/antesYdespues/AntesYdespues.jsx'
+import { AntesYdespues } from './views/beforeAfter/AntesYdespues.jsx'
 
 const router = createBrowserRouter([
   {

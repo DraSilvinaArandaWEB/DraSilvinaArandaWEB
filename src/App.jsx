@@ -9,7 +9,7 @@ import commentIcon from './assets/commentIcon.png'
 import arrowIcon from './assets/arrowIcon.webp'
 import instagramIcon from './assets/instagramIcon.png'
 import whatsappIcon from './assets/whatsappIcon.png'
-import Testimonios from './components/opinionesInfo/opiniones.json'
+import Testimonios from './components/commentsInfo/comments.json'
 import { Card } from './components/card/Card';
 
 function App() {
