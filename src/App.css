@@ -116,7 +116,7 @@ html , body {
   background-image: url(./assets/background.webp);
   background-size: cover;
   background-position: left;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   display: flex;
   align-items: center;
   justify-content: start;
@@ -125,7 +125,7 @@ html , body {
 
 .banner .banner-main {
   width: 473px;
-  margin-left: 210px;
+  margin-left: 10%;
   display: flex;
   align-items: start;
   justify-content: start;
@@ -212,6 +212,7 @@ html , body {
   background-image: url(./assets/consultorio.webp);
   background-size: cover;
   background-position: center;
+  /* background-attachment: fixed; */
   border-bottom-left-radius: 70px;
 }
 
@@ -235,7 +236,7 @@ html , body {
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
   z-index: 10;
 }
 
@@ -258,19 +259,21 @@ html , body {
   width: 100%;
   height: auto;
   padding-top: 30px;
+  gap: 12px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-/* ABOUT SECTION */
+/* ABOUT SECTION 
 .app .about {
   width: 100%;
   height: auto;
   background-color: var(--gray-color);
   z-index: 10;
 }
+
 
 .about .about-container {
   width: 1200px;
@@ -341,14 +344,14 @@ html , body {
   font-family: var(--font-montserrat);
   font-size: 20px;
   font-weight: 300;
-}
+} */
 
 /* WORKS SECTION */
 .app .works {
   width: 100%;
   height: auto;
   padding-top: 100px;
-  background-color: var(--white-color);
+  background-color: var(--gray-color);
   padding-bottom: 100px;
   z-index: 10;
 }
@@ -464,7 +467,7 @@ html , body {
 .app .why {
   width: 100%;
   height: auto;
-  background-color: var(--white-color);
+  background-color: var(--gray-color);
   padding-top: 100px;
   padding-bottom: 100px;
   z-index: 10;
@@ -548,7 +551,7 @@ html , body {
 .app .reservation {
   width: 100%;
   height: auto;
-  background-color: var(--gray-color);
+  background-color: var(--white-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -622,6 +625,10 @@ html , body {
     height: 335px;
   }
 
+  .consultorio .consultorio-container {
+    width: 100%;
+  }
+
   /* WORKS */
   .works .works-container {
     width: 90%;
@@ -630,6 +637,10 @@ html , body {
   .works-container .cards-container .works-card {
     width: 320px;
     height: 300px;
+  }
+
+  .testimonios .testimonios-container {
+    width: 100%;
   }
 
   /* WHY */
@@ -659,6 +670,16 @@ html , body {
     width: 330px;
   }
 
+  .consultorio .consultorio-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .consultorio-container .consultorio-img {
+    width: 100%;
+    height: 500px;
+  }
+
   /* WORKS */
   .works .works-container .cards-container {
     flex-direction: column;
@@ -684,7 +705,15 @@ html , body {
     background-position: center;
     background-attachment: fixed;
   } */
-
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .banner-main {
+    margin: auto;
+    width: auto;
+  }
   .banner .banner-main h1 {
     font-size: 45px;
   }
@@ -693,6 +722,12 @@ html , body {
     width: 200px;
     height: 45px;
     font-size: 15px; 
+  }
+
+  .banner .banner-main-2 {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 5px;
   }
 
   .title-icon h2 {
@@ -716,6 +751,10 @@ html , body {
   }
 
   .why-container h2 {
+    font-size: 28px;
+  }
+
+  .testimonios-container h2 {
     font-size: 28px;
   }
 
@@ -747,6 +786,8 @@ html , body {
 }
 
 @media screen and (max-width: 550px) {
+  
+  
   .banner .banner-main h1 {
     font-size: 30px;
     text-align: center;

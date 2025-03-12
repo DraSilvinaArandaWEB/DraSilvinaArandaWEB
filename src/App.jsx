@@ -67,48 +67,9 @@ function App() {
           <div className="consultorio-info">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum qui laboriosam ipsam quaerat alias quia dolore aliquam neque facere laudantium nemo nihil officiis, possimus, quas, amet et quae mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat fuga porro delectus. Officiis vitae iusto libero, adipisci recusandae fugit enim magni soluta nesciunt nostrum, tempore culpa hic voluptate molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati inventore dolor commodi deleniti sapiente nam eum, quidem, sunt similique et consequuntur facilis. Explicabo et ipsa reprehenderit odio eligendi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis natus obcaecati suscipit optio accusamus accusantium iusto. Et, molestiae! Molestiae exercitationem.</p>
           </div>
-
         </div>
-
       </section>
       {/* ABOUT SECTION */}
-      <section className="about">
-        <div className="about-container">
-          <div className="dra-info">
-            <div className="title-icon">
-              {/* <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="dra silvina aranda picture" /> */}
-              <h2>DRA SILVINA ARANDA</h2>
-            </div>
-            <p>Cirugía plástica estética & reparadora</p>
-          </div>
-          <div className="about-cards-container">
-            <div className="about-card">
-              <div className="img">
-                <img src={commentIcon} alt="text icon" />
-              </div>
-              <div className="info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
-              </div>
-            </div>
-            <div className="about-card">
-              <div className="img">
-                <img src={commentIcon} alt="text icon" />
-              </div>
-              <div className="info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
-              </div>
-            </div>
-            <div className="about-card">
-              <div className="img">
-                <img src={commentIcon} alt="text icon" />
-              </div>
-              <div className="info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, corrupti necessitatibus magni illum expedita reprehenderit provident nobis. Dolorum, facere sunt! Ab impedit aut sed consequuntur dicta totam dolor explicabo quae.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* WORKS SECTION */}
       <article className="works" id='work'>
         <div className="works-container">

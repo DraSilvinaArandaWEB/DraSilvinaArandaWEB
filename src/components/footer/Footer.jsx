@@ -43,7 +43,7 @@ export const Footer = () => {
                 </ul>
             </div>
         </div>
-        <p className='copyright'>Copyright © 2024. Todos los derechos reservados</p>
+        <p className='copyright'>Copyright © 2025. Todos los derechos reservados</p>
     </footer>
   )
 }

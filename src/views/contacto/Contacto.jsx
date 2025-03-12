@@ -112,11 +112,11 @@ export const Contacto = () => {
             <button>{buttonText}</button>
           </div>
         </form>
-        <div className="pink-line"></div>
+        {/* <div className="pink-line"></div>
         <div className="whatsapp">
           <p>Tambien podes contactarnos via Whatsapp</p>
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><button>WHATSAPP</button></a>
-        </div>
+        </div> */}
 
       </div>
       <Footer></Footer>
