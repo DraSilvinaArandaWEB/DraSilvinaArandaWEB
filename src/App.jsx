@@ -5,12 +5,12 @@ import { Navbar } from './components/navbar/Navbar'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import commentIcon from './assets/commentIcon.png'
 import arrowIcon from './assets/arrowIcon.webp'
-import instagramIcon from './assets/instagramIcon.png'
-import whatsappIcon from './assets/whatsappIcon.png'
 import Testimonios from './components/commentsInfo/comments.json'
 import { Card } from './components/card/Card';
+import iconoFaciales from './assets/iconoFacial.png'
+import iconoMela from './assets/iconoMela.png'
+import iconoCorporales from './assets/iconoCorporales.png'
 
 function App() {
 
@@ -38,10 +38,10 @@ function App() {
 
   return (
     <div className="app">
-       <div className="socials-fixed">
+       {/* <div className="socials-fixed">
           <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon"/></a>
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
-          </div>
+          </div> */}
       <div className="whatsapp-fixed">
         <div className='whatsapp-message' ref={refWhatsapp}>
           <p>¡Hola! Agendá una cita hoy</p>
@@ -65,7 +65,7 @@ function App() {
         <div className='consultorio-container'>
           <div className="consultorio-img"></div>
           <div className="consultorio-info">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum qui laboriosam ipsam quaerat alias quia dolore aliquam neque facere laudantium nemo nihil officiis, possimus, quas, amet et quae mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat fuga porro delectus. Officiis vitae iusto libero, adipisci recusandae fugit enim magni soluta nesciunt nostrum, tempore culpa hic voluptate molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati inventore dolor commodi deleniti sapiente nam eum, quidem, sunt similique et consequuntur facilis. Explicabo et ipsa reprehenderit odio eligendi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis natus obcaecati suscipit optio accusamus accusantium iusto. Et, molestiae! Molestiae exercitationem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum qui laboriosam ipsam quaerat alias quia dolore aliquam neque facere laudantium nemo nihil officiis, possimus, quas, amet et quae mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat fuga porro delectus. Officiis vitae iusto libero, adipisci recusandae fugit enim magni soluta nesciunt nostrum, tempore culpa hic voluptate molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati inventore dolor commodi deleniti sapiente nam eum, quidem, sunt similique et consequuntur facilis. Explicabo et ipsa reprehenderit odio eligendi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </section>
@@ -74,31 +74,37 @@ function App() {
       <article className="works" id='work'>
         <div className="works-container">
           <h2>PROCEDIMIENTOS</h2>
-          <p>MELA , Tratamientos CORPORALES y FACIALES</p>
+          <p>Descubrí el tratamiento ideal para vos</p>
           <div className="cards-container">
             <Link to={"./Mela"}>
               <div className="works-card" data-aos="fade-up">
-                <div className="img-mela"></div>
+                <div className="img-mela">
+                  <img src={iconoMela} alt="" />
+                </div>
                 <div className="card-info">
-                  <p>MELA</p>
+                  <p><b>MELA</b></p>
                   <img src={arrowIcon} alt="arrow icon" />
                 </div>
               </div>
             </Link>
             <Link to={"./Corporales"}>
               <div className="works-card" data-aos="fade-up">
-              <div className="img-corporales"></div>
+                <div className="img-corporales">
+                  <img src={iconoCorporales} alt="" />
+                </div>
                 <div className="card-info">
-                  <p>CORPORALES</p>
+                  <p>TRATAMIENTOS <b>CORPORALES</b></p>
                   <img src={arrowIcon} alt="arrow icon" />
                 </div>
               </div>
             </Link>
             <Link to={"./Faciales"}>
               <div className="works-card" data-aos="fade-up">
-              <div className="img-faciales"></div>
+              <div className="img-faciales">
+                <img src={iconoFaciales} alt="" />
+              </div>
                 <div className="card-info">
-                  <p>FACIALES</p>
+                  <p>TRATAMIENTOS <b>FACIALES</b></p>
                   <img src={arrowIcon} alt="arrow icon" />
                 </div>
               </div>
@@ -113,8 +119,7 @@ function App() {
           <div className="cards-container">
             {Testimonios?.map((info) => {
               return <Card text={info.message} img={info.icon} date={info.date} name={info.name}/>
-            })}
-
+            })}  
           </div>
         </div>
       </section>
@@ -127,31 +132,25 @@ function App() {
               <h3 className="number">01</h3>
               <div className="info">
                 <h3>Excelencia profesional certificada</h3>
-                <p>Contamos con formación médica especializada y experiencia garantizando tratamientos de alta calidad y resultados seguros</p>
+                <p>Contamos con formación médica especializada y experiencia garantizando tratamientos de alta calidad y resultados seguros.</p>
               </div>
             </div>
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">02</h3>
               <div className="info">
                 <h3>Espacios diseñados para tu confort</h3>
-                <p>Nuestro consultorio combina un ambiente cálido y profesional, asegurando que te sientas cómodo en cada etapa de tu transformación</p>
-
+                <p>Nuestro consultorio combina un ambiente cálido y profesional, asegurando que te sientas cómodo en cada etapa de tu transformación.</p>
               </div>
-
             </div>
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
               <h3 className="number">03</h3>
               <div className="info">
                 <h3>Reputación y confianza de nuestros pacientes</h3>
-                <p>Testimonios positivos y resultados exitosos avalan nuestro compromiso con la satisfacción y felicidad de quienes nos eligen</p>
+                <p>Testimonios positivos y resultados exitosos avalan nuestro compromiso con la satisfacción y felicidad de quienes nos eligen.</p>
               </div>
-
             </div>
-
-          </div>
-
+            </div>
         </div>
-
       </section>
       {/* RESERVATION SECTION */}
       <div className="reservation">
@@ -160,7 +159,6 @@ function App() {
           <p>¡Encontrá el cambio que buscás con nosotros!</p>
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">AGENDÁ TU CITA</a>
         </div>
-
       </div>
       <Footer></Footer>
     </div>

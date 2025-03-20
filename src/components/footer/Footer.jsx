@@ -16,9 +16,9 @@ export const Footer = () => {
                   <h3>MENU</h3>
                     <ul>
                         <li><Link to={"/"}>INICIO</Link></li>
-                        <li><Link to={"/Antes&Despues"}>ANTES & DESPUES</Link></li>
+                        <li><Link to={"/Antes&Despues"}>ANTES & DESPUÉS</Link></li>
                         <li><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
-                        <li><Link to={"/Testimonios"}>TESTIMONIOS</Link></li>
+                        <li><HashLink to={"/#testimonios"}>TESTIMONIOS</HashLink></li>
                         <li><Link to={"/Contacto"}>CONTACTO</Link></li>
                     </ul>
                 </div>
@@ -26,7 +26,6 @@ export const Footer = () => {
             {/* FOOTER CONTAINER 2 */}
             <div className="footer-container-2">
                 <img src={logo} alt="logo" />
-
             </div>
             {/* FOOTER CONTAINER 3 */}
             <div className="footer-container-3">

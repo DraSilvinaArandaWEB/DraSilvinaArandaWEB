@@ -205,7 +205,7 @@ html , body {
 }
 
 .consultorio-container .consultorio-img {
-  width: 40%;
+  width: 60%;
   height: 100%;
   background-image: url(./assets/consultorio.webp);
   background-size: cover;
@@ -257,7 +257,7 @@ html , body {
 .testimonios-container .cards-container {
   width: 100%;
   height: auto;
-  padding-top: 30px;
+  padding-top: 50px;
   gap: 12px;
   display: flex;
   align-items: center;
@@ -369,7 +369,7 @@ html , body {
   font-size: 40px;
   margin: 0;
   text-align: center;
-  color: var(--black-color);
+  color: var(--strongpink-color);
 }
 
 .works-container p {
@@ -377,7 +377,7 @@ html , body {
   font-family: var(--font-montserrat);
   font-weight: 400;
   font-size: 25px;
-  color: var(--strongpink-color);
+  color: var(--black-color);
   margin: 0;
   margin-top: 0px;
 }
@@ -410,16 +410,23 @@ html , body {
   background-position: center;
 }
 
-.works-container .cards-container .works-card .img-mela {
-  background-image: url(./assets/silvina1.webp);
+.works-container .cards-container .works-card .img-mela , .img-corporales , .img-faciales{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.works-container .cards-container .works-card .img-corporales {
-  background-image: url(./assets/silvina2.webp);
+.works-container .cards-container .works-card .img-mela img {
+  height: 100%;
 }
 
-.works-container .cards-container .works-card .img-faciales {
-  background-image: url(./assets/silvina3.webp);
+.works-container .cards-container .works-card .img-corporales img {
+  height: 100%;
+}
+
+.works-container .cards-container .works-card .img-faciales img {
+  height: 100%;
 }
 
 .works-container .cards-container .works-card:hover {
@@ -444,7 +451,7 @@ html , body {
   font-weight: 500;
   margin: 0;
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   transition: 0.2s;
 }

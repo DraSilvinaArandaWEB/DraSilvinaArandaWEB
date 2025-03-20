@@ -5,6 +5,32 @@
     padding-bottom: 100px;
 }
 
+.container-mela .mela-info {
+    width: auto;
+    padding-top: 50px;
+    border-bottom: 3px solid var(--strongpink-color);
+    margin-bottom: 50px;
+}
+
+.mela-info h2 {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+    text-align: start;
+    color: var(--black-color);
+}
+
+.mela-info p {
+    text-align: start;
+    font-family: var(--font-montserrat);
+    font-weight: 500;
+    font-size: 42px;
+    color: var(--strongpink-color);
+    margin: 0;
+    margin-top: -15px;
+}
+
 .container-mela .mela-next {
     width: auto;
     height: auto;
@@ -24,7 +50,7 @@
     text-decoration: none;
     padding: 13px 39px;
     transition: 0.2s;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .mela-next a:hover {
@@ -91,15 +117,15 @@
     z-index: 30;
   }
 
-.container-mela .pink-line {
+/* .container-mela .pink-line {
     width: 585px;
     height: 5px;
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: var(--strongpink-color);
-}
+} */
 
-.container-mela p {
+.container-mela .about-info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: var(--black-color);

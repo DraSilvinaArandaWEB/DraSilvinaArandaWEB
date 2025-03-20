@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import navIconWhite from '../../assets/navIconWhite.webp'
+import navIconGreen from '../../assets//navIconGreen.png'
 import logo from '../../assets/Iso-3.webp'
 
 export const Navbar = () => {
@@ -49,10 +49,10 @@ export const Navbar = () => {
             {/* <li className='link'><Link to={"/"}>INICIO</Link></li> */}
             <li className='link' style={{color: !currentUrl.includes('https://www.drasilvinaaranda.com/') ? "red" : "blue"}}><HashLink to={"/#work"}>PROCEDIMIENTOS</HashLink></li>
             <li className='link'><HashLink to={"/#testimonios"}>TESTIMONIOS</HashLink></li>
-            <li className='link'><Link to={"/Antes&Despues"}>ANTES & DESPUES</Link></li>
+            <li className='link'><Link to={"/Antes&Despues"}>ANTES & DESPUÉS</Link></li>
             <li className='link'><Link to={"/Contacto"}>CONTACTO</Link></li>
           </ul>
-          <img className='navIcon' src={navIconWhite} alt="navIcon" onClick={() => {changeNav()}}/>
+          <img className='navIcon' src={navIconGreen} alt="navIcon" onClick={() => {changeNav()}}/>
         </div>
 
       </div>    

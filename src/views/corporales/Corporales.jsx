@@ -6,6 +6,7 @@ import { Footer } from '../../components/footer/Footer'
 import { useEffect , useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import bannerImg from '../../assets/CORPORALES.jpg'
 
 export const Corporales = () => {
 
@@ -72,9 +73,13 @@ export const Corporales = () => {
       <div className="navbar-container">
       <Navbar></Navbar>
       </div>
-      <Banner title={"TRATAMIENTOS"} subtitle={"Corporales"}></Banner>
+      <Banner img={bannerImg}></Banner>
       <div className="container-corporales">
-        <div className="pink-line"></div>
+      <div className="corporales-info">
+            <h2>TRATAMIENTOS</h2>
+            <p>Corporales</p>
+        </div>
+        {/* <div className="pink-line"></div> */}
         <div className="accordion-container">
           <h2 className='title'>Nuestros tratamientos corporales</h2>
           <div className="accordion" id="accordionExample">
@@ -144,7 +149,7 @@ export const Corporales = () => {
 
         </div>
         <div className="corporales-next">
-          <Link to={"/Mela"}>Mela</Link>
+          <Link to={"/Mela"}>MELA</Link>
           <Link to={"/Faciales"}>Faciales</Link>
         </div>
       </div>

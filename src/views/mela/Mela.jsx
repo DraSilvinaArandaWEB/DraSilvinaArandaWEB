@@ -6,6 +6,7 @@ import { Banner } from '../../components/banner/Banner'
 import { useEffect , useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import Mela2 from '../../assets/MELA.jpg'
 
 export const Mela = () => {
 
@@ -73,10 +74,14 @@ export const Mela = () => {
       <div className="navbar-container">
         <Navbar></Navbar>
       </div>
-      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"}></Banner>
+      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"} img={Mela2}></Banner>
       <div className="container-mela">
-        <div className="pink-line"></div>
-        <p>La mini liposucción o MELA es un procedimiento mínimamente invasivo, ideal para aquellos pacientes que quieren disminuir adiposidades localizadas que no logran reducirse con ejercicio, y que quieren ver resultados inmediatos. <br /><br />(Se puede hacer con Láser Lumiia y con Renuvion J Plasma).
+      <div className="mela-info">
+            <h2>MELA</h2>
+            <p>Mini Extracción Lipídica Ambulatoria</p>
+        </div>
+        {/* <div className="pink-line"></div> */}
+        <p className='about-info'>La mini liposucción o MELA es un procedimiento mínimamente invasivo, ideal para aquellos pacientes que quieren disminuir adiposidades localizadas que no logran reducirse con ejercicio, y que quieren ver resultados inmediatos. <br /><br />(Se puede hacer con Láser Lumiia y con Renuvion J Plasma).
         </p>
         <div className="pictures-container">
           <div className="picture-card"></div>
@@ -156,7 +161,6 @@ export const Mela = () => {
                 <div className="accordion-body">
                   Los pasos son muy similares en ambos, y en los 2 casos la grasa es extraída en iguales cantidades.
                   Durante la MELA láser agregamos un paso que es introducir la Cánula láser por el tejido adiposo y por la dermis. En lugar de extraer la grasa solamente por succión (MELA TRADICIONAL), con el láser producimos licuefacción de la misma. Eso hace que haya menos hematomas y una recuperación un más rápida. Además la liposucción o MELA se realiza de forma más homogénea.
-
                 </div>
               </div>
             </div>
@@ -175,7 +179,6 @@ export const Mela = () => {
               </div>
             </div>
           </div>
-
         </div>
         <div className="mela-next">
           <Link to={"/Corporales"}>Corporales</Link>

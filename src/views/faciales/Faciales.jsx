@@ -6,6 +6,7 @@ import { Banner } from '../../components/banner/Banner'
 import { useEffect , useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import facialesImg from '../../assets/FACIALES.jpg'
 
 export const Faciales = () => {
 
@@ -72,9 +73,13 @@ export const Faciales = () => {
       <div className="navbar-container">
       <Navbar></Navbar>
       </div>
-      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"}></Banner>
+      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"} img={facialesImg}></Banner>
       <div className="container-faciales">
-        <div className="pink-line"></div>
+      <div className="faciales-info">
+            <h2>TRATAMIENTOS</h2>
+            <p>Corporales</p>
+        </div>
+        {/* <div className="pink-line"></div> */}
         <div className="accordion-container">
           <h2 className='title'>Nuestros tratamientos Faciales</h2>
           <div className="accordion" id="accordionExample">
@@ -87,8 +92,7 @@ export const Faciales = () => {
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 La bichectomía es un procedimiento quirúrgico en el que se elimina la grasa presente en las bolsas de bichat que se encuentran en las mejillas con el objetivo de una apariencia facial más balanceada. Se realiza en consultorio con anestesia local. 
-No deja cicatrices ya que se realiza por dentro de la mucosa oral.
-
+                No deja cicatrices ya que se realiza por dentro de la mucosa oral.
                 </div>
               </div>
             </div>
@@ -101,8 +105,7 @@ No deja cicatrices ya que se realiza por dentro de la mucosa oral.
               <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 Es una intervención que se lleva a cabo para reparar los párpados hundidos o caídos (ptosis), las bolsas de grasa palpebrales y ademas remover el exceso de piel de esta zona.
-Se realiza con anestesia local mas una leve sedacion para mayor confort. La recuperación es muy rapida y practicamente indolora.
-
+                Se realiza con anestesia local mas una leve sedacion para mayor confort. La recuperación es muy rapida y practicamente indolora.
                 </div>
               </div>
             </div>
@@ -171,10 +174,9 @@ Se realiza con anestesia local mas una leve sedacion para mayor confort. La recu
               </div>
             </div>
           </div>
-
         </div>
         <div className="faciales-next">
-          <Link to={"/Mela"}>Mela</Link>
+          <Link to={"/Mela"}>MELA</Link>
           <Link to={"/Corporales"}>Corporales</Link>
         </div>
       </div>
