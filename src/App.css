@@ -112,7 +112,7 @@ html , body {
 .app .banner {
   width: 100%;
   height: calc(100vh);
-  background-image: url(./assets/background.webp);
+  background-image: url(./assets/testBackground.webp);
   background-size: cover;
   background-position: left;
   display: flex;
@@ -245,6 +245,34 @@ html , body {
   margin: auto;
 }
 
+.testimonios .testimonios-container .button-container {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container a {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  width: 250px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: var(--strongpink-color);
+  text-decoration: none;
+  color: var(--white-color);
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.button-container a:hover {
+  background-color: var(--smothpink-color);
+}
+
 .testimonios-container h2 {
   font-family: var(--font-montserrat);
   font-weight: 700;
@@ -264,86 +292,6 @@ html , body {
   justify-content: center;
   flex-wrap: wrap;
 }
-
-/* ABOUT SECTION 
-.app .about {
-  width: 100%;
-  height: auto;
-  background-color: var(--gray-color);
-  z-index: 10;
-}
-
-
-.about .about-container {
-  width: 1200px;
-  height: 100%;
-  margin: auto;
-}
-
-.about-container .dra-info {
-  width: auto;
-  height: auto;
-  margin:auto;
-  padding-top: 100px;
-}
-
-
-.title-icon h2 {
-  font-family: var(--font-montserrat);
-  font-weight: 700;
-  font-size: 40px;
-  margin: 0;
-  text-align: center;
-  color: var(--black-color);
-}
-
-.dra-info p {
-  text-align: center;
-  font-family: var(--font-montserrat);
-  font-weight: 400;
-  font-size: 25px;
-  color: var(--strongpink-color);
-  margin: 0;
-}
-
-.about-container .about-cards-container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 100px;
-  padding-top: 50px;
-}
-
-.about-cards-container .about-card {
-  width: 370px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-card .img {
-  width: 70px;
-  height: 100%;
-}
-
-.img img {
-  width: 50px;
-  margin-left: 15px;
-}
-
-.about-card .info {
-  width: 300px;
-  height: auto;
-}
-
-.about-card .info p {
-  font-family: var(--font-montserrat);
-  font-size: 20px;
-  font-weight: 300;
-} */
 
 /* WORKS SECTION */
 /* WORKS SECTION */
@@ -776,6 +724,12 @@ html , body {
     font-size: 15px; 
   }
 
+  .testimonios-container .button-container a {
+    width: 200px;
+    height: 45px;
+    font-size: 15px; 
+  }
+
   .app .socials-fixed {
     left: calc(50% - 60px);
     top: calc(100vh - 70px);
@@ -786,6 +740,10 @@ html , body {
 
   .app .socials-fixed img {
     width: 35px;
+  }
+
+  .consultorio-container .consultorio-info p {
+    padding-bottom: 20px;
   }
 }
 

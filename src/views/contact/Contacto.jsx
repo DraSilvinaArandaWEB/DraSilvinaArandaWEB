@@ -4,6 +4,7 @@ import { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import ReCAPTCHA from "react-google-recaptcha";
+import contactoBanner from "../../assets/contactoBanner.webp"
 
 export const Contacto = () => {
 
@@ -78,7 +79,7 @@ export const Contacto = () => {
       <div className="navbar-container">
         <Navbar></Navbar>
       </div>
-      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"}></Banner>
+      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={contactoBanner}></Banner>
       <div className="contact-container">
         <div className="pink-line"></div>
         <form action="https://formsubmit.co/50368e4ee88e1166d3245b73f3331652" onSubmit={submit} method='POST'>

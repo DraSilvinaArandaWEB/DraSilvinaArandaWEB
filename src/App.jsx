@@ -38,10 +38,6 @@ function App() {
 
   return (
     <div className="app">
-       {/* <div className="socials-fixed">
-          <a href="https://www.instagram.com/drasilvinaaranda/" target='blank'><img src={instagramIcon} alt="instagram icon"/></a>
-          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src={whatsappIcon} alt="whastapp icon" /></a>
-          </div> */}
       <div className="whatsapp-fixed">
         <div className='whatsapp-message' ref={refWhatsapp}>
           <p>¡Hola! Agendá una cita hoy</p>
@@ -52,24 +48,23 @@ function App() {
       {/* MAIN SECTION */}
       <div className="banner">
         <Navbar></Navbar>
-        <div className="banner-main">
+        {/* <div className="banner-main">
           <h1>Dra Silvina Aranda</h1>
           <div className="banner-main-2">
           <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!" className='agenda'>AGENDÁ TU CITA</a>
           <a href="#procedimientos" className='procedimientos'>PROCEDIMIENTOS</a>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* CONSULTORIO SECTION */}
       <section className='consultorio'>
         <div className='consultorio-container'>
           <div className="consultorio-img"></div>
           <div className="consultorio-info">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum qui laboriosam ipsam quaerat alias quia dolore aliquam neque facere laudantium nemo nihil officiis, possimus, quas, amet et quae mollitia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat fuga porro delectus. Officiis vitae iusto libero, adipisci recusandae fugit enim magni soluta nesciunt nostrum, tempore culpa hic voluptate molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati inventore dolor commodi deleniti sapiente nam eum, quidem, sunt similique et consequuntur facilis. Explicabo et ipsa reprehenderit odio eligendi facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Bienvenidos! Soy la Dra. Silvina Aranda, Cirujana Estética. <br /><br />Si estás buscando mejorar tu apariencia y sentirte más seguro y confiado, ¡te invito a visitar mi consultorio!<br /><br />En un ambiente cálido y profesional, te ofreceremos una consulta personalizada para abordar tus inquietudes y objetivos estéticos. <br /><br /> Trabajaremos juntos para crear un plan de tratamiento personalizado que se adapte a tus necesidades. <br /><br />¡Te espero en mi consultorio!</p>
           </div>
         </div>
       </section>
-      {/* ABOUT SECTION */}
       {/* WORKS SECTION */}
       <article className="works" id='work'>
         <div className="works-container">
@@ -121,6 +116,9 @@ function App() {
               return <Card text={info.message} img={info.icon} date={info.date} name={info.name}/>
             })}  
           </div>
+          <div className='button-container'>
+          <a href="https://www.google.com.ar/maps/place/Dra.+Silvina+Aranda/@-34.5685261,-58.4457494,17z/data=!4m8!3m7!1s0x95bcb5e759714709:0x323e094ba81c917e!8m2!3d-34.5685305!4d-58.4431745!9m1!1b1!16s%2Fg%2F11t3v5z0lv?hl=es&entry=ttu&g_ep=EgoyMDI1MDMyMy4wIKXMDSoASAFQAw%3D%3D" target='blank'>DEJANOS TU RESEÑA</a>
+          </div>
         </div>
       </section>
       {/* WHY SECTION */}
@@ -132,7 +130,7 @@ function App() {
               <h3 className="number">01</h3>
               <div className="info">
                 <h3>Excelencia profesional certificada</h3>
-                <p>Contamos con formación médica especializada y experiencia garantizando tratamientos de alta calidad y resultados seguros.</p>
+                <p>Contamos con formación médica especializada <br />y experiencia garantizando tratamientos de alta calidad <br />y resultados seguros.</p>
               </div>
             </div>
             <div className="why-card" data-aos="zoom-in-up" data-aos-duration="1000">
@@ -146,7 +144,7 @@ function App() {
               <h3 className="number">03</h3>
               <div className="info">
                 <h3>Reputación y confianza de nuestros pacientes</h3>
-                <p>Testimonios positivos y resultados exitosos avalan nuestro compromiso con la satisfacción y felicidad de quienes nos eligen.</p>
+                <p>Testimonios positivos <br />y resultados exitosos avalan nuestro compromiso con la satisfacción y felicidad de quienes nos eligen.</p>
               </div>
             </div>
             </div>

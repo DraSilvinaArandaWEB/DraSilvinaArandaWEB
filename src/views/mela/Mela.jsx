@@ -99,7 +99,7 @@ export const Mela = () => {
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  En todas las zonas donde haya adiposidad localizada (papada, abdomen, flancos, cara externa o interna de las piernas, monte de venus, rodillas, periaxilar, espalda.
+                  En todas las zonas donde haya adiposidad localizada (papada, abdomen, flancos, cara externa o interna de las piernas, monte de venus, rodillas, periaxilar, espalda).
                 </div>
               </div>
             </div>
@@ -154,13 +154,14 @@ export const Mela = () => {
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  ¿Diferencia entre MELA LASER y MELA TRADICIONAL?
+                  Diferencia entre MELA LASER y MELA TRADICIONAL
                 </button>
               </h2>
               <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Los pasos son muy similares en ambos, y en los 2 casos la grasa es extraída en iguales cantidades.
-                  Durante la MELA láser agregamos un paso que es introducir la Cánula láser por el tejido adiposo y por la dermis. En lugar de extraer la grasa solamente por succión (MELA TRADICIONAL), con el láser producimos licuefacción de la misma. Eso hace que haya menos hematomas y una recuperación un más rápida. Además la liposucción o MELA se realiza de forma más homogénea.
+                  <strong>Proceso similar</strong> en ambos, con la misma cantidad de grasa extraída. <br /><br />
+                  <ul><li style={{color: "black"}}><strong>MELA Láser:</strong><br />Se utiliza una cánula láser que licúa la grasa. <br />Menos hematomas y recuperación más rápida. <br />Liposucción más homogénea.</li>
+                  <li style={{color: "black"}}><strong>MELA Tradicional:</strong><br />La grasa se extrae solo por succión.</li></ul>
                 </div>
               </div>
             </div>
@@ -172,9 +173,12 @@ export const Mela = () => {
               </h2>
               <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Renuvion J- Plasma es el tratamiento más efectivo del momento para combatir de forma radical la flacidez de la piel.
-                  Debido a la combinación de las propiedades únicas del Plasma de Helio frío y la energía de la radiofrecuencia, con Renuvion conseguimos reafirmar, retensar la piel de manera segura y permanente consiguiendo mejorar la flacidez hasta en un 70%, lo que lo convierte en el sistema más efectivo que existe actualmente para eliminar la flacidez en unas única sesión.
-                  Renuvion actúa debajo de la piel en diferentes capas, para lograr el mejor resultado contra la flacidez.
+                Renuvion J-Plasma es actualmente el tratamiento más efectivo para combatir la flacidez de la piel. Su combinación única de <strong>plasma de Helio frío y energía de radiofrecuencia</strong> permite obtener resultados excepcionales.
+                <br /><br />
+                <ul><li style={{color: "black"}}><strong>Reafirma y retensa la piel</strong> de manera segura y permanente</li>
+                <li style={{color: "black"}}><strong>Mejora la flacidez</strong>hasta en un <strong>70%</strong> en una sola sesión.</li>
+                <li style={{color: "black"}}><strong>Reafirma y retensa la piel</strong> de manera segura y permanente</li></ul>
+                Este tratamiento es el más avanzado para eliminar la flacidez de forma eficaz en poco tiempo. 
                 </div>
               </div>
             </div>

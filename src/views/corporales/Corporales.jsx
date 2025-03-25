@@ -91,7 +91,7 @@ export const Corporales = () => {
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  La mamoplastia de aumento se hace para incrementar el tamaño de las mamas. También se puede hacer para cambiar la forma de los senos o para corregir defectos de nacimiento (deformidad congénita). Existen distintos abordajes para esta cirugía (puede realizarse el abordaje por via submamaria, periareolar o axilar), distintos planos en los que puede colocarse el implante (retroglandular, retropectoral o dualplane) como tambien distintos tamaños y tipos de prótesis. En la consulta decidiremos juntas cual es el abordaje, el plano y el tipo de protesis mas adecuado para cada paciente.
+                  La mamoplastia de aumento se hace para incrementar el tamaño de las mamas. También se puede hacer para cambiar la forma de los senos o para corregir defectos de nacimiento (deformidad congénita). <br /><br /> Existen distintos abordajes para esta cirugía (puede realizarse el abordaje por vía submamaria, periareolar o axilar), distintos planos en los que puede colocarse el implante (retroglandular, retropectoral o dualplane) como también distintos tamaños y tipos de prótesis. En la consulta decidiremos juntas cual es el abordaje, el plano y el tipo de prótesis más adecuado para cada paciente.
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export const Corporales = () => {
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  La pexia mamaria (mastopexia o levantamiento de busto) es un procedimiento quirúrgico destinado a corregir la posición y mejorar el aspecto general de las mamas. Se puede realizar con o sin implantes mamarios segun se quiera aumentar o no el volumen de las mamas. Hay muchas formas diferentes de realizar una pexia mamaria, y eso determinará que tipo de cicatriz quede finalmente (periareolar, vertical, en T invertida). Segun la caida de las mamas y el volumen, determinaremos cual es la incisión mas adecuada para cada paciente.
+                La pexia mamaria, también conocida como mastopexia, es una cirugía para corregir la posición y mejorar la apariencia de los senos. Puede realizarse con o sin implantes, dependiendo de si se desea aumentar el volumen.
                 </div>
               </div>
             </div>
@@ -141,7 +141,8 @@ export const Corporales = () => {
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  La abdominoplastia es un procedimiento quirúrgico de reconstrucción de la pared abdominal, que consta de eliminación del exceso de piel, del exceso de grasa y la tensión de los músculos de la pared abdominal con el objetivo final de remodelar el abdomen, la cintura y la forma del tronco del cuerpo.​ Se realiza en quirofano, con anestesia general. Se utiliza también tecnologia Renuvion y Lumiia. En general el paciente queda internado el primer dia para un mayor confort.
+                  La abdominoplastia es una cirugía para eliminar el exceso de piel y grasa, y tensar los músculos abdominales, con el fin de remodelar el abdomen y la cintura.
+                  <ul><li style={{color: "black"}}>Realizada en quirófano bajo anestesia general.</li><li style={{color: "black"}}>Uso de tecnología Renuvion y Lumiia.</li><li style={{color: "black"}}>Internación de un día para mayor confort.</li></ul>
                 </div>
               </div>
             </div>

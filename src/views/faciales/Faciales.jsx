@@ -77,7 +77,7 @@ export const Faciales = () => {
       <div className="container-faciales">
       <div className="faciales-info">
             <h2>TRATAMIENTOS</h2>
-            <p>Corporales</p>
+            <p>Faciales</p>
         </div>
         {/* <div className="pink-line"></div> */}
         <div className="accordion-container">
@@ -91,8 +91,8 @@ export const Faciales = () => {
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                La bichectomía es un procedimiento quirúrgico en el que se elimina la grasa presente en las bolsas de bichat que se encuentran en las mejillas con el objetivo de una apariencia facial más balanceada. Se realiza en consultorio con anestesia local. 
-                No deja cicatrices ya que se realiza por dentro de la mucosa oral.
+                  La bichectomía es una cirugía para eliminar la grasa de las bolsas de Bichat en las mejillas, logrando una apariencia facial más armoniosa.
+                  <ul><li style={{color: "black"}}>Realizada en <strong>consultorio</strong> con <strong>anestesia local</strong>.</li><li style={{color: "black"}}><strong>Sin cicatrices</strong>, ya que se realiza por dentro de la mucosa oral.</li></ul>
                 </div>
               </div>
             </div>
@@ -104,8 +104,8 @@ export const Faciales = () => {
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                Es una intervención que se lleva a cabo para reparar los párpados hundidos o caídos (ptosis), las bolsas de grasa palpebrales y ademas remover el exceso de piel de esta zona.
-                Se realiza con anestesia local mas una leve sedacion para mayor confort. La recuperación es muy rapida y practicamente indolora.
+                La blefaroplastia corrige los párpados caídos, elimina las bolsas de grasa y el exceso de piel en la zona ocular.
+                <ul><li style={{color: "black"}}>Realizada con <strong>anestesia local</strong> y <strong>sedación ligera</strong>.</li><li style={{color: "black"}}>Recuperación <strong>rápida</strong> y <strong>prácticamente indolora</strong></li></ul>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ export const Faciales = () => {
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                La rinoplastia es la intervención quirúrgica que se practica para corregir las deformidades de la nariz. Consiste, fundamentalmente, en modificar las estructuras óseas y cartilaginosas nasales para conseguir una nueva forma que mejore la armonía facial.
+                La rinoplastia es una cirugía estética que corrige deformidades de la nariz, mejorando su forma y función. Modifica las estructuras óseas y cartilaginosas para conseguir una apariencia más armónica y equilibrada con el resto del rostro.
                 </div>
               </div>
             </div>
@@ -129,7 +129,8 @@ export const Faciales = () => {
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                La armonización facial consiste en un conjunto de procedimientos estéticos variables según cada paciente con el objetivo de destacar la belleza natural de cada persona a través de pequeñas modificaciones en su fisionomía facial, realzando los puntos fuertes y suavizando las imperfecciones. Se logra mediante el uso de métodos no quirúrgicos como ácido hialurónico, toxina botulinica, bioestimuladores como PRP, hidroxiapatita de calcio, Acido poliláctico. Se puede combinar ademas con procedimientos minimamente invasivos como bichectomia, MELA facial o de papada, endolifting láser, para resultados mas evidentes y duraderos. 
+                La armonización facial es un conjunto de tratamientos estéticos personalizados que realzan tus rasgos naturales mediante pequeñas modificaciones, suavizando imperfecciones y destacando lo mejor de tu fisionomía.
+                <ul><li style={{color: "black"}}><strong>Métodos no quirúrgicos</strong>: ácido hialurónico, toxina botulínica, PRP, hidroxiapatita de calcio, ácido poliláctico.</li><li style={{color: "black"}}><strong>Combinación con procedimientos mínimamente invasivos</strong>: bichectomía, MELA facial o de papada, endolifting láser, para resultados más duraderos.</li></ul>
                 </div>
               </div>
             </div>
@@ -141,8 +142,9 @@ export const Faciales = () => {
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                Los hilos tensores son unos hilos finos utilizados en Medicina Estética para rejuvenecer el rostro. Se pueden aplicar tanto para eliminar las arrugas y la flacidez facial, como para levantar las cejas o, incluso, para redefinir el óvalo de la cara y el contorno de la mandíbula.
-                </div>
+                Los hilos tensores son hilos finos utilizados en Medicina Estética para rejuvenecer el rostro, eliminando arrugas y flacidez. 
+                También sirven para levantar las cejas y redefinir el óvalo facial y el contorno de la mandíbula.
+                 </div>
               </div>
             </div>
             <div className="accordion-item">
@@ -153,7 +155,8 @@ export const Faciales = () => {
               </h2>
               <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                Ayuda a prevenir que las arrugas y líneas de expresión se profundicen o se hagan más evidentes y a suavizar o desaparecer las que ya se ven. Se realiza con microagujas, en consultorio, en aproximadamente 15 minutos. 
+                La toxina botulínica previene la formación de arrugas y líneas de expresión, y suaviza o elimina las ya existentes. 
+                <br /><br /> Se aplica con microagujas en el consultorio, en aproximadamente 15 minutos.
                 </div>
               </div>
             </div>
@@ -165,11 +168,7 @@ export const Faciales = () => {
               </h2>
               <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                Es una proteína que se produce en nuestro cuerpo y es conocida por sus beneficios de hidratación y por mejorar el aspecto de las arrugas y ojeras para lograr una piel renovada.
-                {/* <div className="img-container">
-                  <img src={img1} alt="" />
-                  <img src={img1} alt="" />
-                </div> */}
+                  El ácido hialurónico es una proteína natural que hidrata la piel y mejora el aspecto de arrugas y ojeras, logrando una apariencia más fresca y renovada.
                 </div>
               </div>
             </div>
