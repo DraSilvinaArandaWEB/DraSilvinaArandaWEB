@@ -20,7 +20,7 @@ function App() {
     AOS.init()
   }, [])
 
-  document.body.style.overflowX = "hidden"
+  //document.body.style.overflowX = "hidden"
 
   const animateWhatsapp = () => {
     if(refWhatsapp.current){
