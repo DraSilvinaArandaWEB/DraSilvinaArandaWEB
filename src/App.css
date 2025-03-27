@@ -651,12 +651,11 @@ html , body {
 }
 
 @media screen and (max-width: 800px) {
-  /* .app .banner {
-    background-image: url(./assets/testMobileBackground.png);
+  .app .banner {
+    background-image: url(./assets/mobileBackground.webp);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-  } */
+  }
   .banner {
     display: flex;
     align-items: center;
@@ -740,6 +739,10 @@ html , body {
 
   .app .socials-fixed img {
     width: 35px;
+  }
+
+  .consultorio-container .consultorio-info {
+    width: 80%;
   }
 
   .consultorio-container .consultorio-info p {

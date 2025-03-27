@@ -86,12 +86,19 @@ export const Corporales = () => {
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  Aumento mamario
+                  Mamoplastia de aumento
                 </button>
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  La mamoplastia de aumento se hace para incrementar el tamaño de las mamas. También se puede hacer para cambiar la forma de los senos o para corregir defectos de nacimiento (deformidad congénita). <br /><br /> Existen distintos abordajes para esta cirugía (puede realizarse el abordaje por vía submamaria, periareolar o axilar), distintos planos en los que puede colocarse el implante (retroglandular, retropectoral o dualplane) como también distintos tamaños y tipos de prótesis. En la consulta decidiremos juntas cual es el abordaje, el plano y el tipo de prótesis más adecuado para cada paciente.
+                La mamoplastia de aumento permite aumentar el tamaño de los senos, mejorar su forma o corregir defectos congénitos. <br /><br />
+                <strong>Existen diferentes enfoques para llevar a cabo esta cirugía:</strong>
+                <ul>
+                  <li style={{color: "black"}}><strong>Vías de acceso</strong>: submamaria, periareolar o axilar.</li>
+                  <li style={{color: "black"}}><strong>Ubicación del implante</strong>: retroglandular, retropectoral o dualplane.</li>
+                  <li style={{color: "black"}}><strong>Prótesis</strong>: variedad de tamaños y tipos.</li>
+                </ul>
+                En la consulta, elegiremos juntas el mejor abordaje, plano y prótesis para lograr los resultados que deseas.
                 </div>
               </div>
             </div>
@@ -104,6 +111,12 @@ export const Corporales = () => {
               <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 La pexia mamaria, también conocida como mastopexia, es una cirugía para corregir la posición y mejorar la apariencia de los senos. Puede realizarse con o sin implantes, dependiendo de si se desea aumentar el volumen.
+                <br /><br />
+                <strong>Opciones de cirugía:</strong>
+                <ul>
+                  <li style={{color: "black"}}><strong>Tipos de incisión</strong>: periareolar, vertical o en T invertida.</li>
+                </ul>
+                Según la caída y el volumen de las mamas, elegiremos la incisión más adecuada para cada paciente.
                 </div>
               </div>
             </div>
@@ -115,28 +128,37 @@ export const Corporales = () => {
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  Una cirugía menor en la cual se elimina el exceso de piel de los labios menores de la vulva. Ademas se pueden colocar rellenos de grasa en los labios mayores para mejorar el volumen de los mismos y la estética. Se puede realizar con anestesia local, sin puntos y con muy rapida recuperacion.
-                </div>
+                Es un procedimiento menor para eliminar el exceso de piel en los labios menores de la vulva. Además, se puede agregar grasa para aumentar el volumen de los labios mayores, mejorando su estética.
+                <br /><br />
+                <ul>
+                  <li style={{color: "black"}}><strong>Anestesia local y sin puntos.</strong></li>
+                  <li style={{color: "black"}}>Recuperación <strong>rápida</strong>.</li>
+                </ul>
+               </div>
               </div>
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Lipoescultura (Renuvion y Lumiia)
+                  Lipoescultura
                 </button>
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                  La lipoescultura es la cirugía para eliminar adiposidades y modelar el cuerpo.
-                  Nos permite definir y adelgazar zonas de adiposidad localizada (papada, abdomen, flancos, muslos) además de dar forma a la cintura, al glúteo y al abdomen. Se realiza en quirófano, de forma semi ambulatoria, con Renuvion y con Lumiia. La diferencia respecto a MELA es que se puede trabajar integralmente en varias zonas del cuerpo a la vez, logrando en un unico procedimiento eliminar la grasa de varias zonas (abdomen y espalda completos, piernas, brazos, etc).
-
+                La lipoescultura elimina adiposidades localizadas y redefine el cuerpo, eliminando grasa de áreas como papada, abdomen, flancos y muslos, mientras da forma a la cintura y glúteos.
+                <br /><br />
+                <ul>
+                  <li style={{color: "black"}}>Realizada en quirófano de forma semi ambulatoria.</li>
+                  <li style={{color: "black"}}>Uso de <strong>Renuvion y Lumiia</strong> para un resultado más integral.</li>
+                  <li style={{color: "black"}}>Permite tratar varias zonas en un solo procedimiento (abdomen, espalda, piernas, brazos, etc.).</li>
+                </ul>
                 </div>
               </div>
             </div>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Abdominoplastia (Renuvion y Lumiia)
+                  Abdominoplastia
                 </button>
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -147,15 +169,13 @@ export const Corporales = () => {
               </div>
             </div>
           </div>
-
         </div>
         <div className="corporales-next">
           <Link to={"/Mela"}>MELA</Link>
           <Link to={"/Faciales"}>Faciales</Link>
         </div>
       </div>
-      <Footer></Footer>
-
+      <Footer/>
     </div>
   )
 }

@@ -92,7 +92,7 @@ export const Faciales = () => {
               <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                   La bichectomía es una cirugía para eliminar la grasa de las bolsas de Bichat en las mejillas, logrando una apariencia facial más armoniosa.
-                  <ul><li style={{color: "black"}}>Realizada en <strong>consultorio</strong> con <strong>anestesia local</strong>.</li><li style={{color: "black"}}><strong>Sin cicatrices</strong>, ya que se realiza por dentro de la mucosa oral.</li></ul>
+                  <br /><br /><ul><li style={{color: "black"}}>Realizada en <strong>consultorio</strong> con <strong>anestesia local</strong>.</li><li style={{color: "black"}}><strong>Sin cicatrices</strong>, ya que se realiza por dentro de la mucosa oral.</li></ul>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ export const Faciales = () => {
               <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 La blefaroplastia corrige los párpados caídos, elimina las bolsas de grasa y el exceso de piel en la zona ocular.
-                <ul><li style={{color: "black"}}>Realizada con <strong>anestesia local</strong> y <strong>sedación ligera</strong>.</li><li style={{color: "black"}}>Recuperación <strong>rápida</strong> y <strong>prácticamente indolora</strong></li></ul>
+                <br /><br /><ul><li style={{color: "black"}}>Realizada con <strong>anestesia local</strong> y <strong>sedación ligera</strong>.</li><li style={{color: "black"}}>Recuperación <strong>rápida</strong> y <strong>prácticamente indolora</strong></li></ul>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ export const Faciales = () => {
               <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
                 La armonización facial es un conjunto de tratamientos estéticos personalizados que realzan tus rasgos naturales mediante pequeñas modificaciones, suavizando imperfecciones y destacando lo mejor de tu fisionomía.
-                <ul><li style={{color: "black"}}><strong>Métodos no quirúrgicos</strong>: ácido hialurónico, toxina botulínica, PRP, hidroxiapatita de calcio, ácido poliláctico.</li><li style={{color: "black"}}><strong>Combinación con procedimientos mínimamente invasivos</strong>: bichectomía, MELA facial o de papada, endolifting láser, para resultados más duraderos.</li></ul>
+                <br /><br /><ul><li style={{color: "black"}}><strong>Métodos no quirúrgicos</strong>: ácido hialurónico, toxina botulínica, PRP, hidroxiapatita de calcio, ácido poliláctico.</li><li style={{color: "black"}}><strong>Combinación con procedimientos mínimamente invasivos</strong>: bichectomía, MELA facial o de papada, endolifting láser, para resultados más duraderos.</li></ul>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ export const Faciales = () => {
           <Link to={"/Corporales"}>Corporales</Link>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer/>
     </div>
   )
 }

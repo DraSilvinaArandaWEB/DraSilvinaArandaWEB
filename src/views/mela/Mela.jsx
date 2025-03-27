@@ -189,7 +189,7 @@ export const Mela = () => {
           <Link to={"/Faciales"}>Faciales</Link>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer/>
     </div>
   )
 }
