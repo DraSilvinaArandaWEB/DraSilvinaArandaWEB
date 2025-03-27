@@ -49,6 +49,7 @@ function App() {
       </div>
       {/* MAIN SECTION */}
       <div className="banner">
+        <img src={desktopBackground} className='bg-img' alt="background" />
         <Navbar></Navbar>
         {/* <div className="banner-main">
           <h1>Dra Silvina Aranda</h1>
