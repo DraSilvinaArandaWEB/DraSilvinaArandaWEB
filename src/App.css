@@ -653,7 +653,7 @@ html , body {
 @media screen and (max-width: 800px) {
   .app .banner {
     background-image: url(./assets/mobileBackground.webp);
-    background-size: cover;
+    background-size:contain;
     background-position: center;
   }
   .banner {
