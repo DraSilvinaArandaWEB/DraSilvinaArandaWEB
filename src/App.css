@@ -656,11 +656,7 @@ html , body {
     background-size: cover;
     background-position: center;
   }
-  .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .banner .banner-main {
     margin: auto;
     width: auto;
