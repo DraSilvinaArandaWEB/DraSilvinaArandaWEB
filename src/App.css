@@ -111,7 +111,7 @@ html , body {
 /* MAIN SECTION */
 .app .banner {
   width: 100%;
-  height: calc(100vh);
+  height: 100vh;
   background-image: url(./assets/testBackground.webp);
   background-size: cover;
   background-position: left;
@@ -652,8 +652,10 @@ html , body {
 
 @media screen and (max-width: 800px) {
   .app .banner {
+    width: 100%;
+    height: 100vh;
     background-image: url(./assets/mobileBackground.webp);
-    background-size:contain;
+    background-size:cover;
     background-position: center;
   }
   .banner {
