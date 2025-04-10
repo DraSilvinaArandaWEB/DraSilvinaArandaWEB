@@ -3,10 +3,11 @@ import './Faciales.css'
 import  { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
-import { useEffect , useRef } from 'react'
+import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import facialesImg from '../../assets/FACIALES.jpg'
+import contactMobile from '../../assets/contactMobile.webp'
 
 export const Faciales = () => {
 
@@ -61,6 +62,20 @@ export const Faciales = () => {
      }
   }
 
+  const useWindowWidth = () => {
+          const [width, setWidth] = useState(window.innerWidth);
+        
+          useEffect(() => {
+            const handleResize = () => setWidth(window.innerWidth);
+        
+            window.addEventListener('resize', handleResize);
+        
+            return () => window.removeEventListener('resize', handleResize);
+          }, []);
+        
+          return width;
+  };
+
   return (
     <div>
       <div className="whatsapp-fixed">
@@ -71,9 +86,9 @@ export const Faciales = () => {
         <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
       </div>
       <div className="navbar-container">
-      <Navbar></Navbar>
+      <Navbar/>
       </div>
-      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"} img={facialesImg}></Banner>
+      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"} img={useWindowWidth() <= 600 ? contactMobile : facialesImg}></Banner>
       <div className="container-faciales">
       <div className="faciales-info">
             <h2>TRATAMIENTOS</h2>

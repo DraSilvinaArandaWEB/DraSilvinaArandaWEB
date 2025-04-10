@@ -1,4 +1,4 @@
-import { useRef , useEffect} from 'react';
+import { useRef , useEffect , useState} from 'react';
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
@@ -11,8 +11,8 @@ import { Card } from './components/card/Card';
 import iconoFaciales from './assets/iconoFacial.png'
 import iconoMela from './assets/iconoMela.png'
 import iconoCorporales from './assets/iconoCorporales.png'
+import mobileBackground from './assets/mobileBackground.webp'
 import desktopBackground from './assets/testBackground.webp'
-import mobileBackground from './assets/testMobileBackground.webp'
 
 function App() {
 
@@ -21,8 +21,6 @@ function App() {
   useEffect(() => {
     AOS.init()
   }, [])
-
-  //document.body.style.overflowX = "hidden"
 
   const animateWhatsapp = () => {
     if(refWhatsapp.current){
@@ -38,6 +36,20 @@ function App() {
      }
   }
 
+  const useWindowWidth = () => {
+    const [width, setWidth] = useState(window.innerWidth);
+  
+    useEffect(() => {
+      const handleResize = () => setWidth(window.innerWidth);
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+    return width;
+  };
+
   return (
     <div className="app">
       <div className="whatsapp-fixed">
@@ -49,15 +61,8 @@ function App() {
       </div>
       {/* MAIN SECTION */}
       <div className="banner">
-        <img src={desktopBackground} className='bg-img' alt="background" />
-        <Navbar></Navbar>
-        {/* <div className="banner-main">
-          <h1>Dra Silvina Aranda</h1>
-          <div className="banner-main-2">
-          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!" className='agenda'>AGENDÁ TU CITA</a>
-          <a href="#procedimientos" className='procedimientos'>PROCEDIMIENTOS</a>
-          </div>
-        </div> */}
+        <img src={useWindowWidth() <= 600 ? mobileBackground : desktopBackground} className='bg-img' alt="background" />
+        <Navbar/>
       </div>
       {/* CONSULTORIO SECTION */}
       <section className='consultorio'>

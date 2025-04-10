@@ -3,10 +3,11 @@ import './Mela.css'
 import { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
-import { useEffect , useRef } from 'react'
+import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Mela2 from '../../assets/MELA.jpg'
+import contactMobile from '../../assets/contactMobile.webp'
 
 export const Mela = () => {
 
@@ -61,6 +62,20 @@ export const Mela = () => {
      }
   }
 
+  const useWindowWidth = () => {
+            const [width, setWidth] = useState(window.innerWidth);
+          
+            useEffect(() => {
+              const handleResize = () => setWidth(window.innerWidth);
+          
+              window.addEventListener('resize', handleResize);
+          
+              return () => window.removeEventListener('resize', handleResize);
+            }, []);
+          
+            return width;
+    };
+
 
   return (
     <div>
@@ -72,9 +87,9 @@ export const Mela = () => {
         <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
       </div>
       <div className="navbar-container">
-        <Navbar></Navbar>
+        <Navbar/>
       </div>
-      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"} img={Mela2}></Banner>
+      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"} img={useWindowWidth() <= 600 ? contactMobile : Mela2}></Banner>
       <div className="container-mela">
       <div className="mela-info">
             <h2>MELA</h2>

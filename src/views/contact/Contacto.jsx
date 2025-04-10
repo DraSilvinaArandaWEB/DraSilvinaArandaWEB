@@ -1,10 +1,11 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef, useState , useEffect } from 'react'
 import './Contacto.css'
 import { Navbar } from '../../components/navbar/Navbar'
 import { Footer } from '../../components/footer/Footer'
 import { Banner } from '../../components/banner/Banner'
 import ReCAPTCHA from "react-google-recaptcha";
 import contactoBanner from "../../assets/contactoBanner.webp"
+import contactMobile from '../../assets/contactMobile.webp'
 
 export const Contacto = () => {
 
@@ -67,6 +68,20 @@ export const Contacto = () => {
      }
   }
 
+  const useWindowWidth = () => {
+      const [width, setWidth] = useState(window.innerWidth);
+    
+      useEffect(() => {
+        const handleResize = () => setWidth(window.innerWidth);
+    
+        window.addEventListener('resize', handleResize);
+    
+        return () => window.removeEventListener('resize', handleResize);
+      }, []);
+    
+      return width;
+    };
+
   return (
     <div>
       <div className="whatsapp-fixed">
@@ -77,9 +92,9 @@ export const Contacto = () => {
         <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsapp icon" onMouseOver={() => animateWhatsapp()} onMouseLeave={() => outWhatsapp()}/></a>
       </div>
       <div className="navbar-container">
-        <Navbar></Navbar>
+        <Navbar/>
       </div>
-      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={contactoBanner}></Banner>
+      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={useWindowWidth() <= 600 ? contactMobile : contactoBanner}></Banner>
       <div className="contact-container">
         <div className="pink-line"></div>
         <form action="https://formsubmit.co/50368e4ee88e1166d3245b73f3331652" onSubmit={submit} method='POST'>

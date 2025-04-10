@@ -38,7 +38,6 @@ export const Navbar = () => {
 
   return (
     <nav className={nav}>
-      {/* style={{backgroundColor: !currentUrl.includes('https://www.drasilvinaaranda.com/') ? "red" : "blue"}} */}
       <div className="nav-container">
         <div className="nav-container-1">
             <Link to={"/"}><img src={logo} alt="logo" onClick={() => clickIcon()}/></Link> 
