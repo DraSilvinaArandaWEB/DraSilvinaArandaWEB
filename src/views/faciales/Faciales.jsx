@@ -6,7 +6,7 @@ import { Banner } from '../../components/banner/Banner'
 import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import facialesImg from '../../assets/FACIALES.jpg'
+import facialesImg from '../../assets/facialBanner.png'
 import contactMobile from '../../assets/contactMobile.webp'
 
 export const Faciales = () => {

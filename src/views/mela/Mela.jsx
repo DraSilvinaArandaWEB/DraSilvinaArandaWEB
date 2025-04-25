@@ -6,7 +6,7 @@ import { Banner } from '../../components/banner/Banner'
 import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import Mela2 from '../../assets/MELA.jpg'
+import Mela2 from '../../assets/melaBanner.png'
 import contactMobile from '../../assets/contactMobile.webp'
 
 export const Mela = () => {

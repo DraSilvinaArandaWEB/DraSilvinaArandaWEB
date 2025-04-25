@@ -6,7 +6,7 @@ import { Footer } from '../../components/footer/Footer'
 import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import bannerImg from '../../assets/CORPORALES.jpg'
+import bannerImg from '../../assets/corporalesBanner.png'
 import contactMobile from '../../assets/contactMobile.webp'
 
 export const Corporales = () => {
