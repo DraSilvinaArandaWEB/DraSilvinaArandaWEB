@@ -30,7 +30,7 @@ export const Contacto = () => {
       const formData = new FormData(e.target);
 
       try {
-        const response = await fetch('https://formsubmit.co/frx.ros@gmail.com', {
+        const response = await fetch('https://formsubmit.co/drasilvinaarandaweb@gmail.com', {
           method: 'POST',
           body: formData,
         });
