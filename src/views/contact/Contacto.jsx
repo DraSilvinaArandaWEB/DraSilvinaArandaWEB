@@ -94,10 +94,10 @@ export const Contacto = () => {
       <div className="navbar-container">
         <Navbar/>
       </div>
-      <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={useWindowWidth() <= 600 ? contactMobile : contactoBanner}></Banner>
+      {/* <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={useWindowWidth() <= 600 ? contactMobile : contactoBanner}></Banner> */}
       <div className="contact-container">
         <div className="pink-line"></div>
-        <form action="https://formsubmit.co/50368e4ee88e1166d3245b73f3331652" onSubmit={submit} method='POST'>
+        <form action="https://formsubmit.co/drasilvinaarandaweb@gmail.com" onSubmit={submit} method='POST'>
           <input type="hidden" name="_captcha" value="false"></input>
           <div className="container-1">
             <input type="text" name='nombre' placeholder='Nombre' required />

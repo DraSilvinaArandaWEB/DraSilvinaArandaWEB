@@ -1,21 +1,17 @@
-.navbar-container {
-    background-image: url(/src/assets/ED406E.png);
-    background-attachment: fixed;
-}
-
 .contact-container {
     width: 1200px;
     height: auto;
     margin: auto;
+    margin-top: 150px;
 }
 
-.contact-container .pink-line {
+/* .contact-container .pink-line {
     width: 585px;
     height: 5px;
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: var(--strongpink-color);
-}
+} */
 
 .contact-container form {
     width: 100%;

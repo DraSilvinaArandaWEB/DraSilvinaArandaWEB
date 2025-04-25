@@ -27,7 +27,7 @@
 }
 
 .antesydespuescard .info:hover {
-    background-color: var(--smothpink-color);
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 450px) {

@@ -6,7 +6,7 @@
   --white-color: #FFF;
   --gray-color: #F5F5F5;
   --smothpink-color: #c5e4d2;
-  --strongpink-color: #6fd199;
+  --strongpink-color: #D0A0A3;
   --black-color: rgba(0, 0, 0, 0.781);
   --font-montserrat: "Montserrat", sans-serif;
 }
@@ -283,7 +283,7 @@ html , body {
 .testimonios-container h2 {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   text-align: center;
   color: var(--black-color);
@@ -321,10 +321,10 @@ html , body {
 .works-container h2 {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   text-align: center;
-  color: var(--strongpink-color);
+  color: var(--black-color);
 }
 
 .works-container p {
@@ -447,7 +447,7 @@ html , body {
 .why-container h2 {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   text-align: center;
   color: var(--black-color);
@@ -539,7 +539,7 @@ html , body {
 .reservation-info h2 {
   font-family: var(--font-montserrat);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
   text-align: center;
   color: var(--black-color);
