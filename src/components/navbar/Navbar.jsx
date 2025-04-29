@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import navIconGreen from '../../assets/navbarIcon.png'
-import logo from '../../assets/Iso-3.webp'
+import logo from '../../assets/logo.png'
 
 export const Navbar = () => {
 
@@ -43,7 +43,7 @@ export const Navbar = () => {
       </div>
       <div className="nav-container">
         <div className="nav-container-1">
-            {/* <Link to={"/"}><img src={logo} alt="logo" onClick={() => clickIcon()}/></Link>  */}
+            <Link to={"/"}><img src={logo} alt="logo" onClick={() => clickIcon()}/></Link>  
         </div>
 
         <div className="nav-container-2">
