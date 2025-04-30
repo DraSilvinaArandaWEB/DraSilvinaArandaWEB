@@ -12,7 +12,7 @@ import iconoFaciales from './assets/iconoFacial.png'
 import iconoMela from './assets/iconoMela.png'
 import iconoCorporales from './assets/iconoCorporales.png'
 import mobileBackground from './assets/mobileBackground.webp'
-import desktopBackground from './assets/testBackground.webp'
+import desktopBackground from './assets/backgroundDesk.webp'
 
 function App() {
 
