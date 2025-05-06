@@ -214,7 +214,7 @@ html , body {
 .consultorio-container .consultorio-img {
   width: 60%;
   height: 100%;
-  background-image: url(./assets/consultorio.webp);
+  background-image: url(./assets/consultorio2.webp);
   background-size: cover;
   background-position: center;
   border-bottom-left-radius: 70px;
@@ -373,14 +373,17 @@ html , body {
 }
 
 .works-container .cards-container .works-card .img-mela img {
+  width: 100%;
   height: 100%;
 }
 
 .works-container .cards-container .works-card .img-corporales img {
+  width: 100%;
   height: 100%;
 }
 
 .works-container .cards-container .works-card .img-faciales img {
+  width: 100%;
   height: 100%;
 }
 

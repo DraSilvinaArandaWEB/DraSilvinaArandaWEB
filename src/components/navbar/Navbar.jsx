@@ -39,7 +39,7 @@ export const Navbar = () => {
   return (
     <nav className={nav}>
       <div className='tel-info'>
-        <p>+54 9 11 37696614 | <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">Agenda tu cita virtual</a></p>
+        <p>+54 9 11 37696614 | <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">Agenda tu consulta virtual</a></p>
       </div>
       <div className="nav-container">
         <div className="nav-container-1">

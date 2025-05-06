@@ -8,11 +8,11 @@ import 'aos/dist/aos.css';
 import arrowIcon from './assets/arrowIcon.webp'
 import Testimonios from './components/commentsInfo/comments.json'
 import { Card } from './components/card/Card';
-import iconoFaciales from './assets/iconoFacial.png'
-import iconoMela from './assets/iconoMela.png'
-import iconoCorporales from './assets/iconoCorporales.png'
+import iconoFaciales from './assets/faciales.png'
+import iconoMela from './assets/mela.png'
+import iconoCorporales from './assets/corporales.png'
 import mobileBackground from './assets/mobileBackground.webp'
-import desktopBackground from './assets/backgroundDesk.webp'
+import desktopBackground from './assets/upscalemedia-transformed.webp'
 
 function App() {
 
@@ -161,9 +161,9 @@ function App() {
       {/* RESERVATION SECTION */}
       <div className="reservation">
         <div className="reservation-info">
-          <h2>AGENDÁ TU CITA</h2>
+          <h2>AGENDÁ TU CONSULTA</h2>
           <p>¡Encontrá el cambio que buscás con nosotros!</p>
-          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">AGENDÁ TU CITA</a>
+          <a href="https://wa.me/5491137696614?text=Hola%20Dra%20Silvina%20!%20Quiero%20realizar%20una%20consulta%20,%20Gracias!">AGENDÁ TU CONSULTA</a>
         </div>
       </div>
       <Footer></Footer>
