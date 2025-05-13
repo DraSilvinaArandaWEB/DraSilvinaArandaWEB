@@ -375,16 +375,19 @@ html , body {
 .works-container .cards-container .works-card .img-mela img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .works-container .cards-container .works-card .img-corporales img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .works-container .cards-container .works-card .img-faciales img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .works-container .cards-container .works-card:hover {
@@ -762,6 +765,16 @@ html , body {
   .banner .banner-main h1 {
     font-size: 30px;
     text-align: center;
+  }
+
+  .consultorio-container .consultorio-img {
+    width: 100%;
+    height: 350px;
+    background-position: 0 -40px;
+  }
+
+  .consultorio-container .consultorio-info p {
+    font-size: 18px;
   }
 
   .why .why-container .why-cards-container .why-card {
