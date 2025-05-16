@@ -7,7 +7,7 @@ import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Mela2 from '../../assets/melaBanner.png'
-import contactMobile from '../../assets/contactMobile.webp'
+import melaMobile from '../../assets/melaMobile.png'
 
 export const Mela = () => {
 
@@ -89,7 +89,7 @@ export const Mela = () => {
       <div className="navbar-container">
         <Navbar/>
       </div>
-      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"} img={useWindowWidth() <= 600 ? contactMobile : Mela2}></Banner>
+      <Banner title={"MELA"} subtitle={"Mini Extracción Lipídica Ambulatoria"} img={useWindowWidth() <= 600 ? melaMobile : Mela2}></Banner>
       <div className="container-mela">
       <div className="mela-info">
             <h2>MELA</h2>

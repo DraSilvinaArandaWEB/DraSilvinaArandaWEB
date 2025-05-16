@@ -7,7 +7,7 @@ import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import bannerImg from '../../assets/corporalesBanner.png'
-import contactMobile from '../../assets/contactMobile.webp'
+import corporalesMobile from '../../assets/corporalesMobile.png'
 
 export const Corporales = () => {
 
@@ -88,7 +88,7 @@ export const Corporales = () => {
       <div className="navbar-container">
       <Navbar/>
       </div>
-      <Banner img={useWindowWidth() <= 600 ? contactMobile : bannerImg}/>
+      <Banner img={useWindowWidth() <= 600 ? corporalesMobile : bannerImg}/>
       <div className="container-corporales">
       <div className="corporales-info">
             <h2>TRATAMIENTOS</h2>

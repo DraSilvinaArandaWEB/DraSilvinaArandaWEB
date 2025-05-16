@@ -7,7 +7,7 @@ import { useEffect , useRef , useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import facialesImg from '../../assets/facialBanner.png'
-import contactMobile from '../../assets/contactMobile.webp'
+import facialesMobile from '../../assets/facialesMobile.png'
 
 export const Faciales = () => {
 
@@ -88,7 +88,7 @@ export const Faciales = () => {
       <div className="navbar-container">
       <Navbar/>
       </div>
-      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"} img={useWindowWidth() <= 600 ? contactMobile : facialesImg}></Banner>
+      <Banner title={"TRATAMIENTOS"} subtitle={"FACIALES"} img={useWindowWidth() <= 600 ? facialesMobile : facialesImg}></Banner>
       <div className="container-faciales">
       <div className="faciales-info">
             <h2>TRATAMIENTOS</h2>

@@ -11,7 +11,7 @@ import { Card } from './components/card/Card';
 import iconoFaciales from './assets/faciales.png'
 import iconoMela from './assets/mela.png'
 import iconoCorporales from './assets/corporales.png'
-import mobileBackground from './assets/mobileBackground.webp'
+import mobileBackground from './assets/bannerMobile.png'
 import desktopBackground from './assets/upscalemedia-transformed.webp'
 
 function App() {
