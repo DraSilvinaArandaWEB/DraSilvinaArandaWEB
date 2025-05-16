@@ -68,6 +68,8 @@ form .container-2 select {
     padding-left: 5px;
     margin: 0;
     border: 1px solid rgba(0, 0, 0, 0.281);
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 form .container-2 select:focus {
