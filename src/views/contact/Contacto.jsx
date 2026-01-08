@@ -97,7 +97,7 @@ export const Contacto = () => {
       {/* <Banner title={"CONTACTO"} subtitle={"Esperamos tu mensaje"} img={useWindowWidth() <= 600 ? contactMobile : contactoBanner}></Banner> */}
       <div className="contact-container">
         <div className="pink-line"></div>
-        <form action="https://formsubmit.co/drasilvinaarandaweb@gmail.com" onSubmit={submit} method='POST'>
+        <form action="https://formsubmit.co/ce46883074648de04f46a3eefede4750" onSubmit={submit} method='POST'>
           <input type="hidden" name="_captcha" value="false"></input>
           <div className="container-1">
             <input type="text" name='nombre' placeholder='Nombre' required />
