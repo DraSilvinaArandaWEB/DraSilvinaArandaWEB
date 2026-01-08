@@ -115,12 +115,12 @@ export const Contacto = () => {
             <div className="recaptcha">
               {window.innerWidth < 600 ? <ReCAPTCHA
                 ref={captcha}
-                sitekey="6LfHOkQsAAAAACGEJjs42Yo9Ql4e4gIOZlSqu2uo"
+                sitekey="6LcBO0QsAAAAAG0IZd1a7fhqLlahDTEQpJd2giIx"
                 onChange={onChange}
                 size='compact'
               /> : <ReCAPTCHA
                 ref={captcha}
-                sitekey="6Lc5RIwqAAAAAL4sppB4eTAELQaVlSxe6TF7z3b5"
+                sitekey="6LcBO0QsAAAAAG0IZd1a7fhqLlahDTEQpJd2giIx"
                 onChange={onChange}
                 size='normal'
               />}
